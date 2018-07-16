@@ -1,0 +1,1727 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/Queue-operations/7.3.1Queue-Multi_thread.py" line="5" />
+  </component>
+  <component name="ChangeListManager">
+    <list id="3c7546a6-2fe2-4f68-9201-2ed102ff0052" name="Revert &quot;1&quot;" comment="Revert &quot;1&quot;&#10;&#10;This reverts commit 139f8cc" />
+    <list id="2474c04d-8c07-4c0b-841a-b13a8e60b236" name="1" comment="" />
+    <list default="true" id="8a1dc680-8eaf-41d8-9ae3-49bd7e5ccb53" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/gun.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/data/test.record" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/data/test_labels.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/data/train.record" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/data/train_labels.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/generate_tfrecord.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test/IMG_2383.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test/IMG_2383.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test/IMG_2384.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test/IMG_2384.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test/IMG_2387.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test/IMG_2387.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test/IMG_2391.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test/IMG_2391.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test/IMG_2395.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test/IMG_2395.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test/IMG_2403.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test/IMG_2403.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test/IMG_2432.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test/IMG_2432.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test/IMG_2433.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test/IMG_2433.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test/IMG_2435.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test/IMG_2435.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test/IMG_2436.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test/IMG_2436.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test/IMG_2440.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test/IMG_2440.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test/IMG_2461.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test/IMG_2461.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test/IMG_2463.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test/IMG_2463.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test/IMG_2470.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test/IMG_2470.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test/IMG_2476.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test/IMG_2476.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test/IMG_2479.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test/IMG_2479.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test/IMG_2482.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test/IMG_2482.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test/IMG_2485.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test/IMG_2485.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test/IMG_2510.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test/IMG_2510.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test/IMG_2530.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test/IMG_2530.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test/IMG_2531.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test/IMG_2531.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test/IMG_2532.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test/IMG_2532.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test/IMG_2539.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test/IMG_2539.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test/IMG_2540.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test/IMG_2540.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test/IMG_2544.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test/IMG_2544.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test/IMG_2550.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test/IMG_2550.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test/IMG_2551.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test/IMG_2551.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test/IMG_2554.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test/IMG_2554.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test/IMG_2555.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test/IMG_2555.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test/IMG_2557.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test/IMG_2557.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test/IMG_2560.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test/IMG_2560.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test/IMG_2561.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test/IMG_2561.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test/IMG_2564.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test/IMG_2564.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test/IMG_2568.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test/IMG_2568.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test/IMG_2571.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test/IMG_2571.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test/IMG_2573.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test/IMG_2573.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test/IMG_2580.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test/IMG_2580.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test/IMG_2583.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test/IMG_2583.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test/IMG_2585.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test/IMG_2585.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test/IMG_2591.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test/IMG_2591.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test/IMG_2592.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test/IMG_2592.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test/IMG_2594.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test/IMG_2594.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test/IMG_2595.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test/IMG_2595.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test/IMG_2598.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test/IMG_2598.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test/IMG_2600.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test/IMG_2600.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test/IMG_2604.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test/IMG_2604.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test/IMG_2634.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test/IMG_2634.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test/IMG_2636.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test/IMG_2636.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test/IMG_2639.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test/IMG_2639.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test/IMG_2640.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test/IMG_2640.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test/IMG_2647.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test/IMG_2647.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test/IMG_2651.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test/IMG_2651.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test/IMG_2654.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test/IMG_2654.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test/IMG_2656.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test/IMG_2656.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test/IMG_2662.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test/IMG_2662.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test/IMG_2670.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test/IMG_2670.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test/IMG_2675.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test/IMG_2675.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test/IMG_2677.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test/IMG_2677.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test/IMG_2678.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test/IMG_2678.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test/IMG_2686.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test/IMG_2686.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test/cam_image2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test/cam_image2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test/cam_image4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test/cam_image4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test/cam_image45.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test/cam_image45.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test/cam_image5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test/cam_image5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test/cam_image6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test/cam_image6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test/cam_image7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test/cam_image7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test/cam_image8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test/cam_image8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/test_labels.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2385.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2385.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2386.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2386.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2388.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2388.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2389.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2389.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2390.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2390.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2392.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2392.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2393.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2393.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2394.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2394.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2396.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2396.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2397.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2397.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2398.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2398.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2399.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2399.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2400.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2400.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2401.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2401.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2402.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2402.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2404.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2404.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2405.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2405.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2406.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2406.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2407.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2407.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2408.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2408.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2409.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2409.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2410.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2410.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2411.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2411.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2412.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2412.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2413.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2413.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2414.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2414.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2415.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2415.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2416.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2416.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2417.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2417.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2418.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2418.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2419.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2419.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2420.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2420.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2421.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2421.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2422.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2422.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2423.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2423.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2424.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2424.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2425.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2425.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2426.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2426.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2427.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2427.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2428.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2428.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2429.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2429.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2430.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2430.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2431.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2431.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2434.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2434.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2437.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2437.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2439.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2439.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2441.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2441.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2442.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2442.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2443.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2443.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2445.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2445.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2446.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2446.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2447.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2447.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2448.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2448.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2449.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2449.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2450.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2450.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2451.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2451.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2452.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2452.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2453.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2453.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2454.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2454.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2455.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2455.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2456.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2456.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2457.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2457.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2458.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2458.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2459.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2459.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2460.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2460.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2462.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2462.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2464.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2464.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2465.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2465.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2466.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2466.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2467.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2467.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2468.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2468.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2469.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2469.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2471.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2471.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2472.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2472.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2473.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2473.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2474.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2474.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2475.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2475.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2477.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2477.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2478.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2478.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2480.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2480.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2481.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2481.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2483.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2483.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2484.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2484.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2486.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2486.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2487.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2487.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2488.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2488.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2489.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2489.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2490.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2490.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2491.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2491.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2492.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2492.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2493.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2493.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2494.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2494.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2495.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2495.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2496.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2496.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2497.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2497.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2498.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2498.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2499.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2499.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2500.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2500.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2501.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2501.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2502.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2502.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2503.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2503.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2504.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2504.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2505.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2505.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2506.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2506.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2507.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2507.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2508.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2508.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2509.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2509.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2511.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2511.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2512.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2512.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2513.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2513.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2514.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2514.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2515.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2515.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2516.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2516.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2517.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2517.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2518.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2518.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2519.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2519.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2520.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2520.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2521.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2521.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2522.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2522.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2523.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2523.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2524.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2524.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2525.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2525.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2526.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2526.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2527.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2527.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2528.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2528.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2529.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2529.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2533.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2533.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2535.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2535.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2536.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2536.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2537.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2537.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2538.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2538.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2542.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2542.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2543.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2543.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2545.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2545.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2546.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2546.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2548.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2548.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2549.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2549.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2552.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2552.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2553.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2553.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2556.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2556.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2558.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2558.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2559.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2559.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2562.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2562.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2563.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2563.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2565.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2565.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2566.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2566.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2567.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2567.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2569.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2569.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2570.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2570.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2572.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2572.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2574.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2574.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2576.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2576.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2577.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2577.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2578.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2578.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2579.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2579.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2581.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2581.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2582.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2582.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2584.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2584.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2586.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2586.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2587.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2587.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2588.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2588.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2589.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2589.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2590.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2590.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2593.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2593.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2596.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2596.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2597.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2597.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2599.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2599.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2601.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2601.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2602.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2602.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2603.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2603.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2605.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2605.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2607.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2607.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2608.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2608.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2609.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2609.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2610.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2610.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2611.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2611.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2612.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2612.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2613.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2613.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2614.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2614.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2615.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2615.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2616.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2616.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2617.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2617.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2618.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2618.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2619.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2619.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2620.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2620.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2621.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2621.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2622.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2622.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2623.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2623.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2624.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2624.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2626.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2626.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2627.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2627.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2628.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2628.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2629.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2629.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2630.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2630.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2631.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2631.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2632.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2632.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2633.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2633.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2635.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2635.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2637.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2637.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2638.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2638.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2641.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2641.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2642.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2642.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2643.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2643.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2644.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2644.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2645.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2645.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2648.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2648.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2649.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2649.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2650.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2650.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2652.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2652.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2653.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2653.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2655.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2655.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2657.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2657.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2658.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2658.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2659.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2659.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2660.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2660.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2661.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2661.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2663.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2663.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2664.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2664.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2665.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2665.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2666.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2666.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2667.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2667.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2668.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2668.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2669.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2669.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2671.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2671.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2672.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2672.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2673.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2673.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2674.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2674.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2679.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2679.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2680.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2680.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2681.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2681.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2682.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2682.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2683.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2683.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2684.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2684.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2685.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2685.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2687.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2687.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2689.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2689.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2690.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2690.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2691.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2691.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2692.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2692.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2693.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2693.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2694.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2694.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2695.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2695.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2696.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2696.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2697.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2697.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2698.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2698.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2699.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2699.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2700.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2700.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2701.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2701.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2702.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2702.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2703.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2703.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2704.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/IMG_2704.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/cam_image1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/cam_image1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/cam_image10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/cam_image10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/cam_image11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/cam_image11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/cam_image12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/cam_image12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/cam_image13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/cam_image13.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/cam_image14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/cam_image14.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/cam_image15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/cam_image15.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/cam_image16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/cam_image16.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/cam_image17.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/cam_image17.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/cam_image18.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/cam_image18.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/cam_image19.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/cam_image19.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/cam_image20.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/cam_image20.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/cam_image21.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/cam_image21.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/cam_image22.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/cam_image22.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/cam_image23.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/cam_image23.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/cam_image24.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/cam_image24.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/cam_image25.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/cam_image25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/cam_image26.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/cam_image26.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/cam_image27.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/cam_image27.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/cam_image28.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/cam_image28.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/cam_image29.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/cam_image29.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/cam_image3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/cam_image3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/cam_image30.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/cam_image30.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/cam_image31.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/cam_image31.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/cam_image32.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/cam_image32.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/cam_image33.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/cam_image33.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/cam_image34.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/cam_image34.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/cam_image35.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/cam_image35.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/cam_image36.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/cam_image36.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/cam_image37.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/cam_image37.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/cam_image38.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/cam_image38.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/cam_image39.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/cam_image39.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/cam_image40.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/cam_image40.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/cam_image41.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/cam_image41.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/cam_image42.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/cam_image42.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/cam_image43.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/cam_image43.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/cam_image44.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/cam_image44.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/cam_image46.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/cam_image46.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/cam_image47.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/cam_image47.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/cam_image48.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/cam_image48.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/cam_image50.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/cam_image50.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/cam_image51.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/cam_image51.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/cam_image52.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/cam_image52.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/cam_image54.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/cam_image54.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/cam_image9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train/cam_image9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/images/train_labels.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/ssd_mobilenet_v1_coco_2018_01_28.tar.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/ssd_mobilenet_v1_coco_2018_01_28/checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/ssd_mobilenet_v1_coco_2018_01_28/frozen_inference_graph.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/ssd_mobilenet_v1_coco_2018_01_28/model.ckpt.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/ssd_mobilenet_v1_coco_2018_01_28/model.ckpt.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/ssd_mobilenet_v1_coco_2018_01_28/model.ckpt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/ssd_mobilenet_v1_coco_2018_01_28/pipeline.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/ssd_mobilenet_v1_coco_2018_01_28/saved_model/saved_model.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/ssd_mobilenet_v1_pets.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/test.record" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/train.record" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/training/object-detection.pbtxt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/training/ssd_mobilenet_v1_pets.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.object-detection/object-detection/xml_to_csv.py" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/tensorflowenv/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/tensorflow_from_google_mac$alexnet.coverage" NAME="alexnet Coverage Results" MODIFIED="1530598449743" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2.keras/network" />
+    <SUITE FILE_PATH="coverage/tensorflow_from_google_mac$mnist.coverage" NAME="mnist Coverage Results" MODIFIED="1531312083216" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架" />
+    <SUITE FILE_PATH="coverage/tensorflow_from_google_mac$201836203332.coverage" NAME="2018年3月6日203332 Coverage Results" MODIFIED="1531723467639" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.tensorflow/Google快速学习机器学习TensorFlow" />
+    <SUITE FILE_PATH="coverage/tensorflow_from_google_mac$7_3_4.coverage" NAME="7.3.4 Coverage Results" MODIFIED="1531719658494" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/Queue-operations" />
+    <SUITE FILE_PATH="coverage/tensorflow_from_google_mac$tensorflow_test.coverage" NAME="tensorflow_test Coverage Results" MODIFIED="1531118166656" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.tensorflow" />
+    <SUITE FILE_PATH="coverage/tensorflow_from_google_mac$transfer_learning.coverage" NAME="transfer_learning Coverage Results" MODIFIED="1531387528617" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/transfer-learning" />
+    <SUITE FILE_PATH="coverage/tensorflow_from_google_mac$vgg.coverage" NAME="vgg Coverage Results" MODIFIED="1530434153999" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.tensorflow/network" />
+    <SUITE FILE_PATH="coverage/tensorflow_from_google_mac$grayhist.coverage" NAME="grayhist Coverage Results" MODIFIED="1530809006916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/9.opencv/opencv算法精解" />
+    <SUITE FILE_PATH="coverage/tensorflow_from_google_mac$gun.coverage" NAME="gun Coverage Results" MODIFIED="1531724784380" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/tensorflow_from_google_mac$mnist__1_.coverage" NAME="mnist (1) Coverage Results" MODIFIED="1531130049451" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2.keras" />
+    <SUITE FILE_PATH="coverage/tensorflow_from_google_mac$unit4.coverage" NAME="unit4 Coverage Results" MODIFIED="1531128634265" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架" />
+    <SUITE FILE_PATH="coverage/tensorflow_from_google_mac$GoogleNet.coverage" NAME="GoogleNet Coverage Results" MODIFIED="1530434198766" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.tensorflow/network" />
+    <SUITE FILE_PATH="coverage/tensorflow_from_google_mac$mnist_eval.coverage" NAME="mnist_eval Coverage Results" MODIFIED="1531322098195" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/save_mnist" />
+    <SUITE FILE_PATH="coverage/tensorflow_from_google_mac$python_save.coverage" NAME="python_save Coverage Results" MODIFIED="1531315843534" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架" />
+    <SUITE FILE_PATH="coverage/tensorflow_from_google_mac$1.coverage" NAME="1 Coverage Results" MODIFIED="1531721583029" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/9.TensorBoard" />
+    <SUITE FILE_PATH="coverage/tensorflow_from_google_mac$LeNet.coverage" NAME="LeNet Coverage Results" MODIFIED="1530162718710" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/7.CNN" />
+    <SUITE FILE_PATH="coverage/tensorflow_from_google_mac$numpy.coverage" NAME="numpy Coverage Results" MODIFIED="1530465331951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/6.basic" />
+    <SUITE FILE_PATH="coverage/tensorflow_from_google_mac$7_3_3.coverage" NAME="7.3.3 Coverage Results" MODIFIED="1531718793473" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/Queue-operations" />
+    <SUITE FILE_PATH="coverage/tensorflow_from_google_mac$1__2_.coverage" NAME="1 (2) Coverage Results" MODIFIED="1530808876015" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/9.opencv/opencv算法精解" />
+    <SUITE FILE_PATH="coverage/tensorflow_from_google_mac$Resnet__1_.coverage" NAME="Resnet (1) Coverage Results" MODIFIED="1530449824729" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2.keras/network" />
+    <SUITE FILE_PATH="coverage/tensorflow_from_google_mac$Read_TFRecord_Example.coverage" NAME="Read-TFRecord-Example Coverage Results" MODIFIED="1531700837384" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/TFRecord" />
+    <SUITE FILE_PATH="coverage/tensorflow_from_google_mac$TFRecord_Example.coverage" NAME="TFRecord-Example Coverage Results" MODIFIED="1531719058995" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/TFRecord" />
+    <SUITE FILE_PATH="coverage/tensorflow_from_google_mac$201836201004.coverage" NAME="2018年3月6日201004 Coverage Results" MODIFIED="1529927448847" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2.keras" />
+    <SUITE FILE_PATH="coverage/tensorflow_from_google_mac$mnist_train__1_.coverage" NAME="mnist_train (1) Coverage Results" MODIFIED="1531384585928" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/LeNet-5" />
+    <SUITE FILE_PATH="coverage/tensorflow_from_google_mac$1_test.coverage" NAME="1.test Coverage Results" MODIFIED="1530608270495" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8.object-detection" />
+    <SUITE FILE_PATH="coverage/tensorflow_from_google_mac$webcap.coverage" NAME="webcap Coverage Results" MODIFIED="1530787684362" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/9.opencv/webcap" />
+    <SUITE FILE_PATH="coverage/tensorflow_from_google_mac$7_3_1Queue_Multi_thread.coverage" NAME="7.3.1Queue-Multi_thread Coverage Results" MODIFIED="1531716621409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/Queue-operations" />
+    <SUITE FILE_PATH="coverage/tensorflow_from_google_mac$unit3.coverage" NAME="unit3 Coverage Results" MODIFIED="1531125654278" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架" />
+    <SUITE FILE_PATH="coverage/tensorflow_from_google_mac$7_3_2File_Queue.coverage" NAME="7.3.2File-Queue Coverage Results" MODIFIED="1531717382604" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/Queue-operations" />
+    <SUITE FILE_PATH="coverage/tensorflow_from_google_mac$2.coverage" NAME="2 Coverage Results" MODIFIED="1530809475459" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/9.opencv/opencv算法精解" />
+    <SUITE FILE_PATH="coverage/tensorflow_from_google_mac$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1530082947607" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3.pytorch/1" />
+    <SUITE FILE_PATH="coverage/tensorflow_from_google_mac$test.coverage" NAME="test Coverage Results" MODIFIED="1531701840333" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/4.computer version/face/face_recognition" />
+    <SUITE FILE_PATH="coverage/tensorflow_from_google_mac$Resnet.coverage" NAME="Resnet Coverage Results" MODIFIED="1530434251176" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.tensorflow/network" />
+    <SUITE FILE_PATH="coverage/tensorflow_from_google_mac$22.coverage" NAME="22 Coverage Results" MODIFIED="1530474088820" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/6.basic" />
+    <SUITE FILE_PATH="coverage/tensorflow_from_google_mac$maximum_likelihood_estimation_MLE.coverage" NAME="maximum-likelihood-estimation-MLE Coverage Results" MODIFIED="1530436354469" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/6.basic" />
+    <SUITE FILE_PATH="coverage/tensorflow_from_google_mac$matplotlib.coverage" NAME="matplotlib Coverage Results" MODIFIED="1530437995476" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/6.basic" />
+    <SUITE FILE_PATH="coverage/tensorflow_from_google_mac$mnist_inference.coverage" NAME="mnist_inference Coverage Results" MODIFIED="1531318762729" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/save_mnist" />
+    <SUITE FILE_PATH="coverage/tensorflow_from_google_mac$.coverage" NAME="梯度下降 Coverage Results" MODIFIED="1531725699306" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/5.DeepLearning" />
+    <SUITE FILE_PATH="coverage/tensorflow_from_google_mac$1__1_.coverage" NAME="1 (1) Coverage Results" MODIFIED="1531119110815" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架" />
+    <SUITE FILE_PATH="coverage/tensorflow_from_google_mac$mnist_train.coverage" NAME="mnist_train Coverage Results" MODIFIED="1531320551506" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/save_mnist" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="1.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/9.TensorBoard/1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="17" column="14" lean-forward="true" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="numpy.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/6.basic/numpy.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="12" column="24" lean-forward="true" selection-start-line="11" selection-end-line="12" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gun.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gun.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="梯度下降.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/5.DeepLearning/梯度下降.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-266">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>mnist</find>
+      <find>print</find>
+      <find>/</find>
+      <find>zeros_initializer</find>
+      <find>initialize_all_variables</find>
+      <find>x</find>
+      <find>placeholder</find>
+      <find>MODEL_SAVE_PATH</find>
+      <find>MODEL_NAME</find>
+      <find>LeNet5_infernece</find>
+      <find>\</find>
+      <find>image_batch</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+      <replace>NODE</replace>
+      <replace>mnist_inference</replace>
+      <replace>/</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/6.basic/maximum-likelihood-estimation-MLE.py" />
+        <option value="$PROJECT_DIR$/7.CNN/LeNet.py" />
+        <option value="$PROJECT_DIR$/2.keras/mnist.py" />
+        <option value="$PROJECT_DIR$/2.keras/中文说明文档/1.py" />
+        <option value="$PROJECT_DIR$/1.tensorflow/network/alexnet.py" />
+        <option value="$PROJECT_DIR$/1.tensorflow/network/vgg.py" />
+        <option value="$PROJECT_DIR$/1.tensorflow/network/GoogleNet.py" />
+        <option value="$PROJECT_DIR$/1.tensorflow/network/Resnet.py" />
+        <option value="$PROJECT_DIR$/6.basic/1.py" />
+        <option value="$PROJECT_DIR$/6.basic/numpy.py" />
+        <option value="$PROJECT_DIR$/6.basic/22.py" />
+        <option value="$PROJECT_DIR$/8.object-detection/1.test.py" />
+        <option value="$PROJECT_DIR$/9.opencv/webcap.py" />
+        <option value="$PROJECT_DIR$/9.opencv/webcap/webcap.py" />
+        <option value="$PROJECT_DIR$/9.opencv/opencv算法精解/unit2/1.py" />
+        <option value="$PROJECT_DIR$/9.opencv/opencv算法精解/grayhist.py" />
+        <option value="$PROJECT_DIR$/9.opencv/opencv算法精解/2.py" />
+        <option value="$PROJECT_DIR$/9.opencv/opencv算法精解/1.py" />
+        <option value="$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/1.py" />
+        <option value="$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/unit3.py" />
+        <option value="$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/unit4.py" />
+        <option value="$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/mnist_inference.py" />
+        <option value="$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/mnist.py" />
+        <option value="$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/python_save.py" />
+        <option value="$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/save_mnist/mnist_inference.py" />
+        <option value="$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/save_mnist/mnist_train.py" />
+        <option value="$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/save_mnist/mnist_eval.py" />
+        <option value="$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/LeNet-5/mnist_inference.py" />
+        <option value="$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/LeNet-5/mnist_train.py" />
+        <option value="$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/transfer-learning/transfer_learning.py" />
+        <option value="$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/TFRecord/TFRecord-Example.py" />
+        <option value="$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/TFRecord/Read-TFRecord-Example.py" />
+        <option value="$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/Tensorflow-Picture/1.py" />
+        <option value="$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/Queue-operations/Queue-Multi_thread.py" />
+        <option value="$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/Queue-operations/7.3.1Queue-Multi_thread.py" />
+        <option value="$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/Queue-operations/7.3.2File-Queue.py" />
+        <option value="$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/Queue-operations/7.3.3.py" />
+        <option value="$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/Queue-operations/7.3.4.py" />
+        <option value="$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/9.TensorBoard/1.py" />
+        <option value="$PROJECT_DIR$/gun.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-163" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="false" id="Update" />
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="tensorflow_from_google_mac" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tensorflow_from_google_mac" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tensorflow_from_google_mac" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tensorflow_from_google_mac" type="462c0819:PsiDirectoryNode" />
+              <item name="1.tensorflow" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tensorflow_from_google_mac" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tensorflow_from_google_mac" type="462c0819:PsiDirectoryNode" />
+              <item name="1.tensorflow" type="462c0819:PsiDirectoryNode" />
+              <item name="TensorFlow实战Google深度学习框架" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tensorflow_from_google_mac" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tensorflow_from_google_mac" type="462c0819:PsiDirectoryNode" />
+              <item name="1.tensorflow" type="462c0819:PsiDirectoryNode" />
+              <item name="TensorFlow实战Google深度学习框架" type="462c0819:PsiDirectoryNode" />
+              <item name="9.TensorBoard" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tensorflow_from_google_mac" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tensorflow_from_google_mac" type="462c0819:PsiDirectoryNode" />
+              <item name="5.DeepLearning" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tensorflow_from_google_mac" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tensorflow_from_google_mac" type="462c0819:PsiDirectoryNode" />
+              <item name="6.basic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tensorflow_from_google_mac" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tensorflow_from_google_mac" type="462c0819:PsiDirectoryNode" />
+              <item name="qrcode" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PekingImageMatch" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\yubow\Documents\GitHub\tensorflow_from_google_mac\1.tensorflow\TensorFlow实战Google深度学习框架\transfer-learning\datasets" />
+      <recent name="C:\Users\yubow\Documents\GitHub\tensorflow_from_google_mac\8.object-detection\object-detection\training" />
+      <recent name="C:\Users\yubow\Documents\GitHub\tensorflow_from_google_mac\9.opencv\opencv算法精解" />
+      <recent name="C:\Users\yubow\Documents\GitHub\tensorflow_from_google_mac\9.opencv\webcap" />
+      <recent name="C:\Users\yubow\Documents\GitHub\tensorflow_from_google_mac\2.keras" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\yubow\Documents\GitHub\tensorflow_from_google_mac\1.tensorflow\TensorFlow实战Google深度学习框架\Queue-operations\Records" />
+      <recent name="C:\Users\yubow\Documents\GitHub\tensorflow_from_google_mac\1.tensorflow\TensorFlow实战Google深度学习框架\Tensorflow-Picture" />
+      <recent name="C:\Users\yubow\Documents\GitHub\tensorflow_from_google_mac\1.tensorflow\TensorFlow实战Google深度学习框架\LeNet-5" />
+      <recent name="C:\Users\yubow\Documents\GitHub\tensorflow_from_google_mac\1.tensorflow\TensorFlow实战Google深度学习框架\MNIST_data" />
+      <recent name="C:\Users\yubow\Documents\GitHub\tensorflow_from_google_mac\8.object-detection" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.梯度下降">
+    <configuration name="梯度下降" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="tensorflow_from_google_mac" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/5.DeepLearning" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/5.DeepLearning/梯度下降.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="tensorflow_from_google_mac" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/9.TensorBoard" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/9.TensorBoard/1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="2018年3月6日203332" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="tensorflow_from_google_mac" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1.tensorflow/Google快速学习机器学习TensorFlow" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1.tensorflow/Google快速学习机器学习TensorFlow/2018年3月6日203332.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="7.3.4" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="tensorflow_from_google_mac" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/Queue-operations" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/Queue-operations/7.3.4.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="gun" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="tensorflow_from_google_mac" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gun.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.7.3.4" />
+      <item itemvalue="Python.1" />
+      <item itemvalue="Python.2018年3月6日203332" />
+      <item itemvalue="Python.gun" />
+      <item itemvalue="Python.梯度下降" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.梯度下降" />
+        <item itemvalue="Python.gun" />
+        <item itemvalue="Python.2018年3月6日203332" />
+        <item itemvalue="Python.1" />
+        <item itemvalue="Python.7.3.4" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8a1dc680-8eaf-41d8-9ae3-49bd7e5ccb53" name="Default" comment="" />
+      <changelist id="2474c04d-8c07-4c0b-841a-b13a8e60b236" name="1" comment="" />
+      <created>1528950871317</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1528950871317</updated>
+    </task>
+    <task id="LOCAL-00001" summary="1">
+      <created>1530065497881</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1530065497881</updated>
+    </task>
+    <task id="LOCAL-00002" summary="1">
+      <created>1530166193551</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1530166193551</updated>
+    </task>
+    <task id="LOCAL-00003" summary="1">
+      <created>1530785407416</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1530785407416</updated>
+    </task>
+    <task id="LOCAL-00004" summary="1">
+      <created>1530809621627</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1530809621627</updated>
+    </task>
+    <task id="LOCAL-00005" summary="1">
+      <created>1530809741478</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1530809741478</updated>
+    </task>
+    <task id="LOCAL-00006" summary="1">
+      <created>1530855344137</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1530855344137</updated>
+    </task>
+    <task id="LOCAL-00007" summary="1">
+      <created>1530855445503</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1530855445503</updated>
+    </task>
+    <task id="LOCAL-00008" summary="1">
+      <created>1530855475438</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1530855475438</updated>
+    </task>
+    <task id="LOCAL-00009" summary="1">
+      <created>1530855528495</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1530855528495</updated>
+    </task>
+    <task id="LOCAL-00010" summary="1">
+      <created>1530855656540</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1530855656540</updated>
+    </task>
+    <task id="LOCAL-00011" summary="1">
+      <created>1530855682988</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1530855682988</updated>
+    </task>
+    <task id="LOCAL-00012" summary="1">
+      <created>1530855749742</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1530855749742</updated>
+    </task>
+    <task id="LOCAL-00013" summary="1">
+      <created>1531125739304</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1531125739304</updated>
+    </task>
+    <task id="LOCAL-00014" summary="1">
+      <created>1531125761318</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1531125761318</updated>
+    </task>
+    <task id="LOCAL-00015" summary="1">
+      <created>1531128751236</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1531128751236</updated>
+    </task>
+    <task id="LOCAL-00016" summary="1">
+      <created>1531130252166</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1531130252166</updated>
+    </task>
+    <task id="LOCAL-00017" summary="1">
+      <created>1531130354892</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1531130354892</updated>
+    </task>
+    <task id="LOCAL-00018" summary="1">
+      <created>1531130491730</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1531130491730</updated>
+    </task>
+    <task id="LOCAL-00019" summary="1">
+      <created>1531285762971</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1531285762971</updated>
+    </task>
+    <task id="LOCAL-00020" summary="1">
+      <created>1531318747984</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1531318747984</updated>
+    </task>
+    <task id="LOCAL-00021" summary="1">
+      <created>1531322151034</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1531322151034</updated>
+    </task>
+    <task id="LOCAL-00022" summary="1">
+      <created>1531387991139</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1531387991139</updated>
+    </task>
+    <task id="LOCAL-00023" summary="1">
+      <created>1531701372074</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1531701372074</updated>
+    </task>
+    <task id="LOCAL-00024" summary="1">
+      <created>1531705460035</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1531705460035</updated>
+    </task>
+    <task id="LOCAL-00025" summary="1">
+      <created>1531720016409</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1531720016409</updated>
+    </task>
+    <task id="LOCAL-00026" summary="1">
+      <created>1531720053351</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1531720053351</updated>
+    </task>
+    <task id="LOCAL-00027" summary="1">
+      <created>1531720174716</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1531720174716</updated>
+    </task>
+    <task id="LOCAL-00028" summary="1">
+      <created>1531722088259</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1531722088259</updated>
+    </task>
+    <task id="LOCAL-00029" summary="1">
+      <created>1531722914031</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1531722914031</updated>
+    </task>
+    <task id="LOCAL-00030" summary="1">
+      <created>1531723002211</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1531723002211</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32827735" />
+      <window_info anchor="bottom" id="Python Console" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.15384616" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32719395" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18656716" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32889125" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.27771854" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1" />
+    <option name="LAST_COMMIT_MESSAGE" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/2.keras/network/GoogleNet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="779">
+          <caret line="44" selection-end-line="69" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2.keras/network/Resnet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="722">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2.keras/network/alexnet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="20" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8.object-detection/1.test.py" />
+    <entry file="file://$PROJECT_DIR$/9.opencv/Python OpenCV格式和PIL.Image格式 互转/OpenCV转换成PIL.Image格式.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/9.opencv/opencv算法精解/unit2/齐齐哈尔医学院 169.jpg" />
+    <entry file="file://$PROJECT_DIR$/9.opencv/webcap/webcap.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/9.opencv/opencv算法精解/grayhist.py" />
+    <entry file="file://$PROJECT_DIR$/9.opencv/opencv算法精解/2.py" />
+    <entry file="file://$PROJECT_DIR$/2.keras/123.py" />
+    <entry file="file://$PROJECT_DIR$/9.opencv/opencv算法精解/1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1.tensorflow/tensorflow_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" selection-start-line="5" selection-end-line="10" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/tensorflow/python/ops/init_ops.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="87" column="42" lean-forward="true" selection-start-line="87" selection-start-column="42" selection-end-line="87" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/1.py" />
+    <entry file="file://$PROJECT_DIR$/3.pytorch/1/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/tensorflow/python/ops/random_ops.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="48" column="28" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/unit3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="153" lean-forward="true" selection-start-line="149" selection-start-column="8" selection-end-line="153" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/unit4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2.keras/mnist.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="60" column="47" selection-start-line="60" selection-start-column="47" selection-end-line="60" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/tensorflow/python/ops/nn_ops.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="2048" column="67" selection-start-line="2048" selection-start-column="27" selection-end-line="2048" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/mnist_inference.py" />
+    <entry file="file://$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/model/checkpoint" />
+    <entry file="file://$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/to/model.ckpt.meda.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/save_mnist/mnist_inference.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="35" column="51" lean-forward="true" selection-start-line="35" selection-start-column="51" selection-end-line="35" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/python_save.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="107" column="29" selection-start-line="107" selection-start-column="29" selection-end-line="107" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/tensorflow/python/platform/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="125" selection-start-line="125" selection-end-line="125" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/LeNet-5/mnist_inference.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="737">
+          <caret line="66" column="50" selection-start-line="66" selection-start-column="50" selection-end-line="66" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/MNIST_data/mnist_train.py" />
+    <entry file="file://$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/save_mnist/mnist_eval.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="52" column="66" selection-start-line="52" selection-start-column="66" selection-end-line="52" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/save_mnist/mnist_train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="19" selection-start-line="19" selection-end-line="20" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/LeNet-5/mnist_train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/transfer-learning/transfer_learning.py" />
+    <entry file="file://$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/mnist.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="10" column="26" selection-start-line="10" selection-end-line="10" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4.computer version/face/face_recognition/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="38" column="36" lean-forward="true" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/Tensorflow-Picture/123.jpg" />
+    <entry file="file://$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/Tensorflow-Picture/1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2147">
+          <caret line="113" selection-start-line="113" selection-end-line="113" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/Queue-operations/Queue-Multi_thread.py" />
+    <entry file="file://$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/Queue-operations/7.3.2File-Queue.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="41" column="22" selection-end-line="44" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/Queue-operations/7.3.3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="58" column="15" selection-start-line="58" selection-start-column="15" selection-end-line="58" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/Queue-operations/7.3.1Queue-Multi_thread.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="533">
+          <caret line="55" column="50" selection-start-line="55" selection-start-column="50" selection-end-line="55" selection-end-column="50" />
+          <folding>
+            <element signature="e#170#193#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/TFRecord/Read-TFRecord-Example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/TFRecord/TFRecord-Example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/Queue-operations/7.3.4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-466">
+          <caret line="40" column="69" selection-start-line="40" selection-start-column="52" selection-end-line="40" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/9.TensorBoard/log/log/events.out.tfevents.1531720557.DESKTOP-09GDFJF" />
+    <entry file="file://$PROJECT_DIR$/1.tensorflow/Google快速学习机器学习TensorFlow/2018年3月6日203332.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="22" column="35" lean-forward="true" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6.basic/1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="74" selection-start-line="74" selection-end-line="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6.basic/22.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6.basic/numpy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="12" column="24" lean-forward="true" selection-start-line="11" selection-end-line="12" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gun.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5.DeepLearning/梯度下降.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-266">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/9.TensorBoard/1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="14" lean-forward="true" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
