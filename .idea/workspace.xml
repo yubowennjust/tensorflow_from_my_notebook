@@ -4,13 +4,8 @@
     <bookmark url="file://$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/Queue-operations/7.3.1Queue-Multi_thread.py" line="5" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a1dc680-8eaf-41d8-9ae3-49bd7e5ccb53" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/1.tensorflow/TensorFlow实战/2.AutoEncoder.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.tensorflow/TensorFlow实战/mnist.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/5.4TensorFlowModelsPersistence/1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
     <list id="3c7546a6-2fe2-4f68-9201-2ed102ff0052" name="Revert &quot;1&quot;" comment="Revert &quot;1&quot;&#10;&#10;This reverts commit 139f8cc" />
+    <list default="true" id="8a1dc680-8eaf-41d8-9ae3-49bd7e5ccb53" name="Default" comment="1" />
     <list id="2474c04d-8c07-4c0b-841a-b13a8e60b236" name="1" comment="" />
     <ignored path="$PROJECT_DIR$/tensorflowenv/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -106,7 +101,7 @@
       <file leaf-file-name="1.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/5.4TensorFlowModelsPersistence/1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-27">
+            <state relative-caret-position="452">
               <caret line="70" column="85" selection-start-line="70" selection-start-column="82" selection-end-line="70" selection-end-column="85" />
               <folding>
                 <element signature="e#147#170#0" expanded="true" />
@@ -648,7 +643,14 @@
       <option name="project" value="LOCAL" />
       <updated>1531723002211</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="1">
+      <created>1531764909791</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1531764909791</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TodoView">
@@ -669,7 +671,7 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32827735" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.51895994" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.51895994" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32719395" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29584223" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
@@ -994,7 +996,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/5.4TensorFlowModelsPersistence/1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-27">
+        <state relative-caret-position="452">
           <caret line="70" column="85" selection-start-line="70" selection-start-column="82" selection-end-line="70" selection-end-column="85" />
           <folding>
             <element signature="e#147#170#0" expanded="true" />
