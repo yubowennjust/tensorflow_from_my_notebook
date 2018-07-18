@@ -12,8 +12,8 @@ import cv2
 from PIL import Image
 import numpy
 
-img = cv2.imread("plane.jpg")
-cv2.imshow("OpenCV", img)
+img = cv2.imread("C:/Users/yubow/Documents/GitHub/tensorflow_from_my_notebook/10.network/2.AlexNET/images/llama.jpeg")
+# cv2.imshow("OpenCV", img)
 image = Image.fromarray(cv2.cvtColor(img, cv2.COLOR_BGR2RGB))
 image.show()
 cv2.waitKey()
