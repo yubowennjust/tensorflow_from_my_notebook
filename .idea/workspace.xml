@@ -4,12 +4,12 @@
     <bookmark url="file://$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/Queue-operations/7.3.1Queue-Multi_thread.py" line="5" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a1dc680-8eaf-41d8-9ae3-49bd7e5ccb53" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.tensorflow/TensorFlow实战/VGGNet.py" beforeDir="false" afterPath="$PROJECT_DIR$/1.tensorflow/TensorFlow实战/VGGNet.py" afterDir="false" />
-    </list>
-    <list id="2474c04d-8c07-4c0b-841a-b13a8e60b236" name="1" comment="" />
     <list id="3c7546a6-2fe2-4f68-9201-2ed102ff0052" name="Revert &quot;1&quot;" comment="Revert &quot;1&quot;&#10;&#10;This reverts commit 139f8cc" />
+    <list id="2474c04d-8c07-4c0b-841a-b13a8e60b236" name="1" comment="" />
+    <list default="true" id="8a1dc680-8eaf-41d8-9ae3-49bd7e5ccb53" name="Default" comment="1">
+      <change afterPath="$PROJECT_DIR$/1.tensorflow/TensorFlow实战/ResNetV2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/tensorflowenv/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -76,6 +76,7 @@
     <SUITE FILE_PATH="coverage/tensorflow_from_google_mac$Resnet.coverage" NAME="Resnet Coverage Results" MODIFIED="1530434251176" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.tensorflow/network" />
     <SUITE FILE_PATH="coverage/tensorflow_from_google_mac$22.coverage" NAME="22 Coverage Results" MODIFIED="1530474088820" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/6.basic" />
     <SUITE FILE_PATH="coverage/tensorflow_from_google_mac$matplotlib.coverage" NAME="matplotlib Coverage Results" MODIFIED="1530437995476" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/6.basic" />
+    <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$ResNetV2.coverage" NAME="ResNetV2 Coverage Results" MODIFIED="1532362179346" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.tensorflow/TensorFlow实战" />
     <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$cifar10_train.coverage" NAME="cifar10_train Coverage Results" MODIFIED="1531930322267" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.tensorflow/TensorFlow实战/unit5/cifar10" />
     <SUITE FILE_PATH="coverage/tensorflow_from_google_mac$1__1_.coverage" NAME="1 (1) Coverage Results" MODIFIED="1531119110815" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架" />
   </component>
@@ -95,25 +96,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="VGGNet.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/1.tensorflow/TensorFlow实战/VGGNet.py">
+      <file leaf-file-name="ResNetV2.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/1.tensorflow/TensorFlow实战/ResNetV2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="137" column="22" lean-forward="true" selection-start-line="137" selection-start-column="22" selection-end-line="137" selection-end-column="22" />
+            <state relative-caret-position="820">
+              <caret line="442" lean-forward="true" selection-start-line="442" selection-end-line="442" />
               <folding>
-                <element signature="e#0#29#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AlexNet.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/1.tensorflow/TensorFlow实战/AlexNet.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3124">
-              <caret line="145" column="4" selection-start-line="145" selection-start-column="4" selection-end-line="149" selection-end-column="105" />
-              <folding>
-                <element signature="e#0#29#0" expanded="true" />
+                <element signature="e#1403#1421#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -147,6 +136,10 @@
       <find>\</find>
       <find>pool2</find>
       <find>num_step_burn_in</find>
+      <find>stack_blocks_dense</find>
+      <find>weight_regularizer</find>
+      <find>time_tensorflow_run</find>
+      <find>conv2d_same</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -164,7 +157,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/6.basic/maximum-likelihood-estimation-MLE.py" />
         <option value="$PROJECT_DIR$/7.CNN/LeNet.py" />
         <option value="$PROJECT_DIR$/2.keras/mnist.py" />
         <option value="$PROJECT_DIR$/2.keras/中文说明文档/1.py" />
@@ -215,6 +207,7 @@
         <option value="$PROJECT_DIR$/1.tensorflow/TensorFlow实战/unit5/cifar10/5.3.py" />
         <option value="$PROJECT_DIR$/1.tensorflow/TensorFlow实战/AlexNet.py" />
         <option value="$PROJECT_DIR$/1.tensorflow/TensorFlow实战/VGGNet.py" />
+        <option value="$PROJECT_DIR$/1.tensorflow/TensorFlow实战/ResNetV2.py" />
       </list>
     </option>
   </component>
@@ -228,10 +221,9 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1538" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="-7" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="false" id="Update" />
@@ -253,6 +245,12 @@
               <item name="tensorflow_from_my_notebook" type="b2602c69:ProjectViewProjectNode" />
               <item name="tensorflow_from_my_notebook" type="462c0819:PsiDirectoryNode" />
               <item name="1.tensorflow" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tensorflow_from_my_notebook" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tensorflow_from_my_notebook" type="462c0819:PsiDirectoryNode" />
+              <item name="1.tensorflow" type="462c0819:PsiDirectoryNode" />
+              <item name="TensorFlow实战" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="tensorflow_from_my_notebook" type="b2602c69:ProjectViewProjectNode" />
@@ -310,7 +308,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.VGGNet">
+  <component name="RunManager" selected="Python.ResNetV2">
     <configuration name="5.3 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="tensorflow_from_google_mac" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -330,25 +328,6 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="5.3" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="tensorflow_from_google_mac" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1.tensorflow/TensorFlow实战/unit5/cifar10" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\yubow\Documents\GitHub\tensorflow_from_my_notebook\1.tensorflow\TensorFlow实战\unit5\5.3.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <configuration name="AlexNet" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="tensorflow_from_google_mac" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -363,6 +342,25 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1.tensorflow/TensorFlow实战/AlexNet.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="ResNetV2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="tensorflow_from_google_mac" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1.tensorflow/TensorFlow实战" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1.tensorflow/TensorFlow实战/ResNetV2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -407,19 +405,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.5.3" />
       <item itemvalue="Python.5.3 (1)" />
       <item itemvalue="Python.tensorflow_test" />
       <item itemvalue="Python.AlexNet" />
       <item itemvalue="Python.VGGNet" />
+      <item itemvalue="Python.ResNetV2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ResNetV2" />
         <item itemvalue="Python.VGGNet" />
         <item itemvalue="Python.AlexNet" />
         <item itemvalue="Python.tensorflow_test" />
         <item itemvalue="Python.5.3 (1)" />
-        <item itemvalue="Python.5.3" />
       </list>
     </recent_temporary>
   </component>
@@ -680,7 +678,14 @@
       <option name="project" value="LOCAL" />
       <updated>1532073736586</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="1">
+      <created>1532336649227</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1532336649227</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TodoView">
@@ -693,7 +698,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
@@ -701,15 +706,15 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32827735" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32936078" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4989429" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.60238355" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32719395" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.36302084" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20255864" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" weight="0.32936078" />
       <window_info anchor="right" id="Database" order="3" weight="0.32889125" />
       <window_info anchor="right" id="SciView" order="3" weight="0.27771854" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991462" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -756,15 +761,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/MNIST_data/mnist_train.py" />
-    <entry file="file://$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/transfer-learning/transfer_learning.py" />
-    <entry file="file://$PROJECT_DIR$/4.computer version/face/face_recognition/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="38" column="36" lean-forward="true" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/Tensorflow-Picture/123.jpg" />
     <entry file="file://$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/Queue-operations/Queue-Multi_thread.py" />
     <entry file="file://$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/Queue-operations/7.3.2File-Queue.py">
@@ -1020,12 +1016,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/tensorflow/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/tensorflow/contrib/framework/python/ops/arg_scope.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="182" selection-start-line="182" selection-end-line="182" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/1.tensorflow/TensorFlow实战/VGGNet.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="179">
-          <caret line="137" column="22" lean-forward="true" selection-start-line="137" selection-start-column="22" selection-end-line="137" selection-end-column="22" />
+          <caret line="122" column="111" lean-forward="true" selection-start-line="104" selection-end-line="122" selection-end-column="111" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1.tensorflow/TensorFlow实战/ResNetV2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="820">
+          <caret line="442" lean-forward="true" selection-start-line="442" selection-end-line="442" />
+          <folding>
+            <element signature="e#1403#1421#0" expanded="true" />
           </folding>
         </state>
       </provider>
