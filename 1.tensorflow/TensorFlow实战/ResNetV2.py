@@ -430,7 +430,9 @@ def time_tensorflow_run(session, target, info_string):
 
 batch_size = 32
 height, width = 224, 224
+
 inputs = tf.random_uniform((batch_size, height, width, 3))
+
 with slim.arg_scope(resnet_arg_scope(is_training=False)):
     net, end_points = resnet_v2_152(inputs, 1000)
 
