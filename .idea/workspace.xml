@@ -4,8 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/Queue-operations/7.3.1Queue-Multi_thread.py" line="5" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a1dc680-8eaf-41d8-9ae3-49bd7e5ccb53" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/unit4/regularization.py" afterDir="false" />
+    <list default="true" id="8a1dc680-8eaf-41d8-9ae3-49bd7e5ccb53" name="Default" comment="1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <list id="2474c04d-8c07-4c0b-841a-b13a8e60b236" name="1" comment="" />
@@ -79,7 +78,7 @@
     <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$mnist.coverage" NAME="mnist Coverage Results" MODIFIED="1531750734847" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.tensorflow/TensorFlow实战" />
     <SUITE FILE_PATH="coverage/tensorflow_from_google_mac$mnist_inference.coverage" NAME="mnist_inference Coverage Results" MODIFIED="1531318762729" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/save_mnist" />
     <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$demo_GAN.coverage" NAME="demo_GAN Coverage Results" MODIFIED="1531901922772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10.network/6.GAN" />
-    <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$1.coverage" NAME="1 Coverage Results" MODIFIED="1532444819932" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/unit3" />
+    <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$1.coverage" NAME="1 Coverage Results" MODIFIED="1533005778026" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/unit5/5.4TensorFlowModelsPersistence" />
     <SUITE FILE_PATH="coverage/tensorflow_from_google_mac$maximum_likelihood_estimation_MLE.coverage" NAME="maximum-likelihood-estimation-MLE Coverage Results" MODIFIED="1530436354469" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/6.basic" />
     <SUITE FILE_PATH="coverage/tensorflow_from_google_mac$1__1_.coverage" NAME="1 (1) Coverage Results" MODIFIED="1531119110815" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架" />
     <SUITE FILE_PATH="coverage/tensorflow_from_google_mac$grayhist.coverage" NAME="grayhist Coverage Results" MODIFIED="1530809006916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/9.opencv/opencv算法精解" />
@@ -107,50 +106,39 @@
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="2" />
+          <entry key="py" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="2" />
+          <entry key="Python" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="83" />
+          <entry key="py" value="268" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="83" />
+          <entry key="Python" value="268" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/unit3/1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="26" column="27" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/unit4/regularization.py">
+        <entry file="file://$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/unit5/5.4TensorFlowModelsPersistence/1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="614">
-              <caret line="68" column="40" lean-forward="true" selection-start-line="68" selection-start-column="40" selection-end-line="68" selection-end-column="40" />
-              <folding>
-                <element signature="e#0#23#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="300">
+              <caret line="86" lean-forward="true" selection-start-line="86" selection-end-line="86" />
             </state>
           </provider>
         </entry>
@@ -204,8 +192,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/1.tensorflow/network/vgg.py" />
-        <option value="$PROJECT_DIR$/1.tensorflow/network/GoogleNet.py" />
         <option value="$PROJECT_DIR$/1.tensorflow/network/Resnet.py" />
         <option value="$PROJECT_DIR$/6.basic/1.py" />
         <option value="$PROJECT_DIR$/6.basic/numpy.py" />
@@ -255,6 +241,8 @@
         <option value="$PROJECT_DIR$/1.tensorflow/GAN/GAN_MNIST.py" />
         <option value="$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/unit3/1.py" />
         <option value="$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/unit4/regularization.py" />
+        <option value="$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/unit5/1.py" />
+        <option value="$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/unit5/5.4TensorFlowModelsPersistence/1.py" />
       </list>
     </option>
   </component>
@@ -307,6 +295,30 @@
             <path>
               <item name="tensorflow_from_my_notebook" type="b2602c69:ProjectViewProjectNode" />
               <item name="tensorflow_from_my_notebook" type="462c0819:PsiDirectoryNode" />
+              <item name="1.tensorflow" type="462c0819:PsiDirectoryNode" />
+              <item name="TensorFlow实战Google深度学习框架" type="462c0819:PsiDirectoryNode" />
+              <item name="unit5" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tensorflow_from_my_notebook" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tensorflow_from_my_notebook" type="462c0819:PsiDirectoryNode" />
+              <item name="1.tensorflow" type="462c0819:PsiDirectoryNode" />
+              <item name="TensorFlow实战Google深度学习框架" type="462c0819:PsiDirectoryNode" />
+              <item name="unit5" type="462c0819:PsiDirectoryNode" />
+              <item name="5.4TensorFlowModelsPersistence" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tensorflow_from_my_notebook" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tensorflow_from_my_notebook" type="462c0819:PsiDirectoryNode" />
+              <item name="1.tensorflow" type="462c0819:PsiDirectoryNode" />
+              <item name="TensorFlow实战Google深度学习框架" type="462c0819:PsiDirectoryNode" />
+              <item name="unit5" type="462c0819:PsiDirectoryNode" />
+              <item name="5.4TensorFlowModelsPersistence" type="462c0819:PsiDirectoryNode" />
+              <item name="SAVEMODEL" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tensorflow_from_my_notebook" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tensorflow_from_my_notebook" type="462c0819:PsiDirectoryNode" />
               <item name="2.keras" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -336,22 +348,22 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\yubow\Documents\GitHub\tensorflow_from_my_notebook\1.tensorflow\TensorFlow实战Google深度学习框架\unit5" />
+      <recent name="C:\Users\yubow\Documents\GitHub\tensorflow_from_my_notebook\1.tensorflow\TensorFlow实战\unit5" />
+      <recent name="C:\Users\yubow\Documents\GitHub\tensorflow_from_my_notebook\1.tensorflow\TensorFlow实战\unit5\cifar10" />
+      <recent name="C:\Users\yubow\Documents\GitHub\tensorflow_from_google_mac\1.tensorflow\TensorFlow实战Google深度学习框架\transfer-learning\datasets" />
+      <recent name="C:\Users\yubow\Documents\GitHub\tensorflow_from_google_mac\8.object-detection\object-detection\training" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\yubow\Documents\GitHub\tensorflow_from_my_notebook\1.tensorflow\TensorFlow实战\unit5" />
       <recent name="C:\Users\yubow\Documents\GitHub\tensorflow_from_my_notebook\10.network\2.AlexNET" />
       <recent name="C:\Users\yubow\Documents\GitHub\tensorflow_from_google_mac\1.tensorflow\TensorFlow实战Google深度学习框架\Queue-operations\Records" />
       <recent name="C:\Users\yubow\Documents\GitHub\tensorflow_from_google_mac\1.tensorflow\TensorFlow实战Google深度学习框架\Tensorflow-Picture" />
       <recent name="C:\Users\yubow\Documents\GitHub\tensorflow_from_google_mac\1.tensorflow\TensorFlow实战Google深度学习框架\LeNet-5" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\yubow\Documents\GitHub\tensorflow_from_my_notebook\1.tensorflow\TensorFlow实战\unit5" />
-      <recent name="C:\Users\yubow\Documents\GitHub\tensorflow_from_my_notebook\1.tensorflow\TensorFlow实战\unit5\cifar10" />
-      <recent name="C:\Users\yubow\Documents\GitHub\tensorflow_from_google_mac\1.tensorflow\TensorFlow实战Google深度学习框架\transfer-learning\datasets" />
-      <recent name="C:\Users\yubow\Documents\GitHub\tensorflow_from_google_mac\8.object-detection\object-detection\training" />
-      <recent name="C:\Users\yubow\Documents\GitHub\tensorflow_from_google_mac\9.opencv\opencv算法精解" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -366,7 +378,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.1 (1)">
+  <component name="RunManager" selected="Python.1">
     <configuration name="1 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="tensorflow_from_google_mac" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -381,6 +393,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/unit5/1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="tensorflow_from_google_mac" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/unit5/5.4TensorFlowModelsPersistence" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/unit5/5.4TensorFlowModelsPersistence/1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -433,28 +467,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="tensorflow_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="tensorflow_from_google_mac" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1.tensorflow" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1.tensorflow/tensorflow_test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="tensorflow_from_google_mac" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -478,19 +490,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.tensorflow_test" />
       <item itemvalue="Python.test" />
       <item itemvalue="Python.2018年3月6日201004" />
       <item itemvalue="Python.regularization" />
       <item itemvalue="Python.1 (1)" />
+      <item itemvalue="Python.1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.1" />
         <item itemvalue="Python.1 (1)" />
         <item itemvalue="Python.regularization" />
         <item itemvalue="Python.2018年3月6日201004" />
         <item itemvalue="Python.test" />
-        <item itemvalue="Python.tensorflow_test" />
       </list>
     </recent_temporary>
   </component>
@@ -772,7 +784,21 @@
       <option name="project" value="LOCAL" />
       <updated>1532442080963</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="1">
+      <created>1533005004200</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1533005004200</updated>
+    </task>
+    <task id="LOCAL-00040" summary="1">
+      <created>1533005358784</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1533005358784</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TodoView">
@@ -786,13 +812,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18176973" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18336888" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.47180045" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.47180045" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991462" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -806,7 +833,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info active="true" anchor="right" id="SciView" order="3" visible="true" weight="0.2771855" />
+      <window_info anchor="right" id="SciView" order="3" visible="true" weight="0.2771855" />
       <window_info anchor="right" id="Database" order="4" weight="0.32889125" />
     </layout>
   </component>
@@ -847,7 +874,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/9.TensorBoard/log/log/events.out.tfevents.1531720557.DESKTOP-09GDFJF" />
     <entry file="file://$PROJECT_DIR$/6.basic/1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
@@ -950,13 +976,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
           <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/5.4TensorFlowModelsPersistence/1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
-          <caret line="70" column="85" selection-start-line="70" selection-start-column="82" selection-end-line="70" selection-end-column="85" />
         </state>
       </provider>
     </entry>
@@ -1125,11 +1144,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/unit4/regularization.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="614">
-          <caret line="68" column="40" lean-forward="true" selection-start-line="68" selection-start-column="40" selection-end-line="68" selection-end-column="40" />
+        <state relative-caret-position="129">
+          <caret line="41" column="10" selection-start-line="41" selection-start-column="10" selection-end-line="41" selection-end-column="10" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/unit5/1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/unit5/5.4TensorFlowModelsPersistence/1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="86" lean-forward="true" selection-start-line="86" selection-end-line="86" />
         </state>
       </provider>
     </entry>
