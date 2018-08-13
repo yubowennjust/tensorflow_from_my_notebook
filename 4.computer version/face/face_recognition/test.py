@@ -9,7 +9,7 @@ import os
 # 得到一个参考的摄像头# 0（默认）
 video_capture = cv2.VideoCapture(0)
 # 加载示例图片并学习如何识别它。
-path ="C:/Users/yubow/Documents/GitHub/tensorflow_from_google_mac/4.computer version/images"#在同级目录下的images文件中放需要被识别出的人物图
+path ="D:\\GitHub\\tensorflow_from_my_notebook\\4.computer version\\images"#在同级目录下的images文件中放需要被识别出的人物图
 total_image=[]
 total_image_name=[]
 total_face_encoding=[]
