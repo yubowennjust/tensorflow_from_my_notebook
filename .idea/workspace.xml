@@ -4,7 +4,13 @@
     <bookmark url="file://$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/Queue-operations/7.3.1Queue-Multi_thread.py" line="5" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a1dc680-8eaf-41d8-9ae3-49bd7e5ccb53" name="Default" comment="1" />
+    <list default="true" id="8a1dc680-8eaf-41d8-9ae3-49bd7e5ccb53" name="Default" comment="1">
+      <change afterPath="$PROJECT_DIR$/4.computer version/images/test-INSERT.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.computer version/图像插值/双三次.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.computer version/图像插值/双线性.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.computer version/图像插值/最临近.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <list id="2474c04d-8c07-4c0b-841a-b13a8e60b236" name="1" comment="" />
     <list id="3c7546a6-2fe2-4f68-9201-2ed102ff0052" name="Revert &quot;1&quot;" comment="Revert &quot;1&quot;&#10;&#10;This reverts commit 139f8cc" />
     <ignored path="$PROJECT_DIR$/tensorflowenv/" />
@@ -82,6 +88,7 @@
     <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$mnist__1_.coverage" NAME="mnist (1) Coverage Results" MODIFIED="1531749349629" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架" />
     <SUITE FILE_PATH="coverage/tensorflow_from_google_mac$TFRecord_Example.coverage" NAME="TFRecord-Example Coverage Results" MODIFIED="1531719058995" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/TFRecord" />
     <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$mnist.coverage" NAME="mnist Coverage Results" MODIFIED="1534211242592" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8.GANS" />
+    <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$.coverage" NAME="双三次 Coverage Results" MODIFIED="1534430581837" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/4.computer version/图像插值" />
     <SUITE FILE_PATH="coverage/tensorflow_from_google_mac$mnist_inference.coverage" NAME="mnist_inference Coverage Results" MODIFIED="1531318762729" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/save_mnist" />
     <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$demo_GAN.coverage" NAME="demo_GAN Coverage Results" MODIFIED="1531901922772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10.network/6.GAN" />
     <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$1.coverage" NAME="1 Coverage Results" MODIFIED="1533005778026" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/unit5/5.4TensorFlowModelsPersistence" />
@@ -141,82 +148,81 @@
     <session id="-1769676544">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="10" />
-          <entry key="project.open.time.0" value="1" />
+          <entry key="project.closed" value="13" />
+          <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="3" />
-          <entry key="project.open.time.7" value="5" />
-          <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="11" />
+          <entry key="project.open.time.7" value="6" />
+          <entry key="project.open.time.8" value="2" />
+          <entry key="project.opened" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="jpg" value="3" />
-          <entry key="py" value="11" />
+          <entry key="jpg" value="4" />
+          <entry key="py" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Image" value="3" />
-          <entry key="Python" value="11" />
+          <entry key="Image" value="4" />
+          <entry key="Python" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="868" />
+          <entry key="py" value="1029" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="868" />
+          <entry key="Python" value="1029" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/0.1.math/softmax.py">
+        <entry file="file://$PROJECT_DIR$/4.computer version/图像插值/最临近.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-8">
-              <caret line="7" column="75" selection-start-line="7" selection-start-column="75" selection-end-line="7" selection-end-column="75" />
+            <state relative-caret-position="381">
+              <caret line="17" selection-start-line="17" selection-end-line="18" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/4.computer version/face/face_recognition/test.py">
+        <entry file="file://$PROJECT_DIR$/4.computer version/图像插值/双线性.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-8">
-              <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+            <state relative-caret-position="219">
+              <caret line="18" column="34" lean-forward="true" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
               <folding>
-                <element signature="e#24#47#0" expanded="true" />
+                <element signature="e#0#10#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/8.GANS/mnist.py">
+        <entry file="file://$PROJECT_DIR$/4.computer version/图像插值/双三次.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3647">
-              <caret line="72" selection-start-line="72" selection-end-line="72" selection-end-column="41" />
+            <state relative-caret-position="1317">
+              <caret line="80" lean-forward="true" selection-start-line="80" selection-end-line="80" />
               <folding>
-                <element signature="e#0#23#0" expanded="true" />
-                <marker date="1534210635971" expanded="true" signature="1615:1977" ph="..." />
+                <element signature="e#0#10#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/7.CNN/LeNet.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-8">
-              <caret line="9" selection-start-line="9" selection-end-line="13" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/4.computer version/images/yubowen.jpg">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
     </leaf>
@@ -258,6 +264,7 @@
       <find>cvpr</find>
       <find>real_img</find>
       <find>get_inputs</find>
+      <find>2048</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -272,6 +279,8 @@
       <replace>8</replace>
       <replace>7</replace>
       <replace>ICCV</replace>
+      <replace>\\</replace>
+      <replace>960</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -280,10 +289,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/1.py" />
-        <option value="$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/unit3.py" />
-        <option value="$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/unit4.py" />
-        <option value="$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/mnist_inference.py" />
         <option value="$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/mnist.py" />
         <option value="$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/python_save.py" />
         <option value="$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/save_mnist/mnist_inference.py" />
@@ -331,6 +336,10 @@
         <option value="$PROJECT_DIR$/8.GANS/mnist/train.py" />
         <option value="$PROJECT_DIR$/8.GANS/mnist/load.py" />
         <option value="$PROJECT_DIR$/8.GANS/mnist.py" />
+        <option value="$PROJECT_DIR$/qrcode/qrcode.py" />
+        <option value="$PROJECT_DIR$/4.computer version/图像插值/最临近.py" />
+        <option value="$PROJECT_DIR$/4.computer version/图像插值/双三次.py" />
+        <option value="$PROJECT_DIR$/4.computer version/图像插值/双线性.py" />
       </list>
     </option>
   </component>
@@ -341,10 +350,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="584" />
-    <option name="y" value="-8" />
+    <option name="x" value="-7" />
     <option name="width" value="974" />
-    <option name="height" value="991" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="false" id="Update" />
@@ -365,25 +373,7 @@
             <path>
               <item name="tensorflow_from_my_notebook" type="b2602c69:ProjectViewProjectNode" />
               <item name="tensorflow_from_my_notebook" type="462c0819:PsiDirectoryNode" />
-              <item name="0.1.math" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tensorflow_from_my_notebook" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tensorflow_from_my_notebook" type="462c0819:PsiDirectoryNode" />
               <item name="4.computer version" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tensorflow_from_my_notebook" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tensorflow_from_my_notebook" type="462c0819:PsiDirectoryNode" />
-              <item name="4.computer version" type="462c0819:PsiDirectoryNode" />
-              <item name="face" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tensorflow_from_my_notebook" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tensorflow_from_my_notebook" type="462c0819:PsiDirectoryNode" />
-              <item name="4.computer version" type="462c0819:PsiDirectoryNode" />
-              <item name="face" type="462c0819:PsiDirectoryNode" />
-              <item name="face_recognition" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="tensorflow_from_my_notebook" type="b2602c69:ProjectViewProjectNode" />
@@ -394,57 +384,13 @@
             <path>
               <item name="tensorflow_from_my_notebook" type="b2602c69:ProjectViewProjectNode" />
               <item name="tensorflow_from_my_notebook" type="462c0819:PsiDirectoryNode" />
-              <item name="5.DeepLearning" type="462c0819:PsiDirectoryNode" />
+              <item name="4.computer version" type="462c0819:PsiDirectoryNode" />
+              <item name="图像插值" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="tensorflow_from_my_notebook" type="b2602c69:ProjectViewProjectNode" />
               <item name="tensorflow_from_my_notebook" type="462c0819:PsiDirectoryNode" />
-              <item name="6.basic" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tensorflow_from_my_notebook" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tensorflow_from_my_notebook" type="462c0819:PsiDirectoryNode" />
-              <item name="7.CNN" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tensorflow_from_my_notebook" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tensorflow_from_my_notebook" type="462c0819:PsiDirectoryNode" />
-              <item name="7.CNN" type="462c0819:PsiDirectoryNode" />
-              <item name="MNIST_data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tensorflow_from_my_notebook" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tensorflow_from_my_notebook" type="462c0819:PsiDirectoryNode" />
-              <item name="8.GANS" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tensorflow_from_my_notebook" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tensorflow_from_my_notebook" type="462c0819:PsiDirectoryNode" />
-              <item name="8.GANS" type="462c0819:PsiDirectoryNode" />
-              <item name="checkpoints" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tensorflow_from_my_notebook" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tensorflow_from_my_notebook" type="462c0819:PsiDirectoryNode" />
-              <item name="8.GANS" type="462c0819:PsiDirectoryNode" />
-              <item name="MNIST_data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tensorflow_from_my_notebook" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tensorflow_from_my_notebook" type="462c0819:PsiDirectoryNode" />
-              <item name="9.opencv" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tensorflow_from_my_notebook" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tensorflow_from_my_notebook" type="462c0819:PsiDirectoryNode" />
-              <item name="9.opencv" type="462c0819:PsiDirectoryNode" />
-              <item name="Python OpenCV格式和PIL.Image格式 互转" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tensorflow_from_my_notebook" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tensorflow_from_my_notebook" type="462c0819:PsiDirectoryNode" />
-              <item name="9.opencv" type="462c0819:PsiDirectoryNode" />
-              <item name="webcap" type="462c0819:PsiDirectoryNode" />
+              <item name="9.super_resolution" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -455,23 +401,23 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../DCGAN-tensorflow" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../machine-learning" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\GitHub\tensorflow_from_my_notebook\4.computer version\images" />
       <recent name="D:\GitHub\tensorflow_from_my_notebook\8.GANS\mnist" />
       <recent name="D:\GitHub\tensorflow_from_my_notebook\8.GANS" />
       <recent name="C:\Users\yubow\Documents\GitHub\tensorflow_from_my_notebook\1.tensorflow\TensorFlow实战\unit5" />
       <recent name="C:\Users\yubow\Documents\GitHub\tensorflow_from_my_notebook\10.network\2.AlexNET" />
-      <recent name="C:\Users\yubow\Documents\GitHub\tensorflow_from_google_mac\1.tensorflow\TensorFlow实战Google深度学习框架\Queue-operations\Records" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\GitHub\tensorflow_from_my_notebook\4.computer version\0.0.opencv" />
+      <recent name="D:\GitHub\tensorflow_from_my_notebook\4.computer version" />
       <recent name="D:\GitHub\tensorflow_from_my_notebook\8.GANS\mnist\data" />
       <recent name="C:\Users\yubow\Documents\GitHub\tensorflow_from_my_notebook\1.tensorflow\TensorFlow实战Google深度学习框架\unit5" />
       <recent name="C:\Users\yubow\Documents\GitHub\tensorflow_from_my_notebook\1.tensorflow\TensorFlow实战\unit5" />
-      <recent name="C:\Users\yubow\Documents\GitHub\tensorflow_from_my_notebook\1.tensorflow\TensorFlow实战\unit5\cifar10" />
-      <recent name="C:\Users\yubow\Documents\GitHub\tensorflow_from_google_mac\1.tensorflow\TensorFlow实战Google深度学习框架\transfer-learning\datasets" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -486,7 +432,73 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.qrcode">
+  <component name="RunManager" selected="Python.双三次">
+    <configuration name="最临近" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="tensorflow_from_google_mac" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/4.computer version/图像插值" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/4.computer version/图像插值/最临近.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="双线性" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="tensorflow_from_google_mac" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/4.computer version/图像插值" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/4.computer version/图像插值/双线性.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="双三次" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="tensorflow_from_google_mac" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/4.computer version/图像插值" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/4.computer version/图像插值/双三次.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="mnist" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="tensorflow_from_google_mac" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -531,86 +543,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="softmax" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="tensorflow_from_google_mac" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/0.1.math" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/0.1.math/softmax.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="tensorflow_from_google_mac" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/4.computer version/face/face_recognition" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/4.computer version/face/face_recognition/test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="train" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="tensorflow_from_google_mac" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/8.GANS/mnist" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/8.GANS/mnist/train.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Python.test" />
-      <item itemvalue="Python.softmax" />
-      <item itemvalue="Python.train" />
       <item itemvalue="Python.mnist" />
       <item itemvalue="Python.qrcode" />
+      <item itemvalue="Python.最临近" />
+      <item itemvalue="Python.双线性" />
+      <item itemvalue="Python.双三次" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.双三次" />
+        <item itemvalue="Python.双线性" />
+        <item itemvalue="Python.最临近" />
         <item itemvalue="Python.qrcode" />
         <item itemvalue="Python.mnist" />
-        <item itemvalue="Python.train" />
-        <item itemvalue="Python.test" />
-        <item itemvalue="Python.softmax" />
       </list>
     </recent_temporary>
   </component>
@@ -927,7 +873,14 @@
       <option name="project" value="LOCAL" />
       <updated>1534212741741</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="1">
+      <created>1534232143023</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1534232143023</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TodoView">
@@ -941,13 +894,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21801706" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1119403" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286334" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5835141" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3275488" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991462" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -961,7 +915,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info active="true" anchor="right" id="SciView" order="3" visible="true" weight="0.21215352" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.21215352" />
       <window_info anchor="right" id="Database" order="4" weight="0.32889125" />
     </layout>
   </component>
@@ -1002,18 +956,7 @@
     <option name="LAST_COMMIT_MESSAGE" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/10.network/2.AlexNET/alexnet.py" />
-    <entry file="file://$PROJECT_DIR$/10.network/2.AlexNET/caffe_classes.py" />
-    <entry file="file://$PROJECT_DIR$/10.network/2.AlexNET/datagenerator.py" />
-    <entry file="file://$PROJECT_DIR$/10.network/2.AlexNET/validate_alexnet_on_imagenet-checkpoint.py" />
-    <entry file="file://$PROJECT_DIR$/9.opencv/Python OpenCV格式和PIL.Image格式 互转/OpenCV转换成PIL.Image格式.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="17" column="12" lean-forward="true" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/9.opencv/Python OpenCV格式和PIL.Image格式 互转/PIL.Image转换成OpenCV格式.py">
+    <entry file="file://$PROJECT_DIR$/4.computer version/0.0.opencv/Python OpenCV格式和PIL.Image格式 互转/PIL.Image转换成OpenCV格式.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="17" column="6" selection-start-line="16" selection-end-line="18" selection-end-column="13" />
@@ -1204,77 +1147,71 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/8.GANS/123.py" />
-    <entry file="file://$PROJECT_DIR$/0.1.math/softmax.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="7" column="75" selection-start-line="7" selection-start-column="75" selection-end-line="7" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/8.GANS/mnist/vis/sample_0.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/8.GANS/mnist/vis/sample_3.0.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/8.GANS/mnist/vis/sample_9.0.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/8.GANS/mnist/util.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/8.GANS/mnist/model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2114" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/8.GANS/mnist/train.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/8.GANS/mnist/load.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="17" column="44" lean-forward="true" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/8.GANS/mnist/vis/sample_0.jpg" />
+    <entry file="file://$PROJECT_DIR$/8.GANS/mnist/vis/sample_3.0.jpg" />
+    <entry file="file://$PROJECT_DIR$/8.GANS/mnist/vis/sample_9.0.jpg" />
+    <entry file="file://$PROJECT_DIR$/8.GANS/mnist/util.py" />
+    <entry file="file://$PROJECT_DIR$/8.GANS/mnist/model.py" />
+    <entry file="file://$PROJECT_DIR$/8.GANS/mnist/train.py" />
+    <entry file="file://$PROJECT_DIR$/8.GANS/mnist/load.py" />
     <entry file="file://$PROJECT_DIR$/4.computer version/face/face_recognition/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
+        <state relative-caret-position="300">
           <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-          <folding>
-            <element signature="e#24#47#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/7.CNN/LeNet.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
+        <state relative-caret-position="225">
           <caret line="9" selection-start-line="9" selection-end-line="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/8.GANS/mnist.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3647">
+        <state relative-caret-position="25">
           <caret line="72" selection-start-line="72" selection-end-line="72" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/0.1.math/softmax.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="75" selection-start-line="7" selection-start-column="75" selection-end-line="7" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qrcode/qrcode.py" />
+    <entry file="file://$PROJECT_DIR$/4.computer version/图像插值/最临近.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="17" selection-start-line="17" selection-end-line="18" />
           <folding>
-            <element signature="e#0#23#0" expanded="true" />
-            <marker date="1534210635971" expanded="true" signature="1615:1977" ph="..." />
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4.computer version/images/yubowen.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4.computer version/图像插值/双线性.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="18" column="34" lean-forward="true" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4.computer version/图像插值/双三次.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1317">
+          <caret line="80" lean-forward="true" selection-start-line="80" selection-end-line="80" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
