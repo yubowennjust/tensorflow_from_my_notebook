@@ -10,4 +10,5 @@ print("fps=",fps,"frames=",frames)
 
 for i in range(int(frames)):
     ret,frame = videoCapture.read()
-    cv2.imwrite("D:/test/video/pictures/1-1.avi(%d).jpg"%i,frame)
+    cv2.imwrite("D:/t"
+                "est/video/pictures/1w  -1.avi(%d).jpg"%i,frame)
