@@ -96,7 +96,7 @@ def draw_limbs(image, parts):
 
 # path to pre-trained models
 # download here: https://drive.google.com/open?id=0Bw6m_66JSYLld0NESGQ4QUNEdFk
-model_path = 'D:\\python_model\\cpm\\'
+model_path = 'D:/model/cpm/'
 person_net_path = os.path.join(model_path, 'person_net.ckpt')
 pose_net_path = os.path.join(model_path, 'pose_net.ckpt')
 
@@ -125,7 +125,7 @@ tf_config = tf.ConfigProto()
 tf_config.gpu_options.allow_growth = True
 tf_config.allow_soft_placement = True
 
-fname = 'nadal.png'
+fname = '00007508_01_23.png'
 
 image = skimage.io.imread(fname)
 image = skimage.transform.resize(image, [PH, PW], mode='constant',

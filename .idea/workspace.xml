@@ -5,35 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a1dc680-8eaf-41d8-9ae3-49bd7e5ccb53" name="Default" comment="1">
-      <change afterPath="$PROJECT_DIR$/0.2.paper_to_implementation/cpm/sample_image/7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0.2.paper_to_implementation/cpm/sample_image/CMU_panoptic/00000998_01_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0.2.paper_to_implementation/cpm/sample_image/CMU_panoptic/00000998_05_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0.2.paper_to_implementation/cpm/sample_image/CMU_panoptic/00000998_06_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0.2.paper_to_implementation/cpm/sample_image/CMU_panoptic/00000998_14_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0.2.paper_to_implementation/cpm/sample_image/CMU_panoptic/00000998_17_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0.2.paper_to_implementation/cpm/sample_image/CMU_panoptic/00004780_01_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0.2.paper_to_implementation/cpm/sample_image/CMU_panoptic/00007508_01_23.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0.2.paper_to_implementation/cpm/sample_image/CMU_panoptic/00007508_02_06.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0.2.paper_to_implementation/cpm/sample_image/CMU_panoptic/00007508_08_06.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0.2.paper_to_implementation/cpm/sample_image/FLIC_test/12-oclock-high-special-edition-00006381.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0.2.paper_to_implementation/cpm/sample_image/FLIC_test/princess-diaries-2-00152201.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0.2.paper_to_implementation/cpm/sample_image/LSP_test/im1630.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0.2.paper_to_implementation/cpm/sample_image/LSP_test/im1640.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0.2.paper_to_implementation/cpm/sample_image/LSP_test/im1658.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0.2.paper_to_implementation/cpm/sample_image/frame0181.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0.2.paper_to_implementation/cpm/sample_image/nadal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0.2.paper_to_implementation/cpm/sample_image/roger.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0.2.paper_to_implementation/cpm/sample_image/shihen.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0.2.paper_to_implementation/cpm/sample_image/singer.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0.2.paper_to_implementation/cpm/sample_image/videos/minh.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0.2.paper_to_implementation/cpm_basic/cpm.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0.2.paper_to_implementation/cpm_basic/example.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0.2.paper_to_implementation/cpm_basic/nadal.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/tensorflow_from_google_mac.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/tensorflow_from_google_mac.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0.2.paper_to_implementation/cpm_basic/00007508_01_23.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0.0.cvpr/cvpr.py" beforeDir="false" afterPath="$PROJECT_DIR$/0.0.cvpr/cvpr.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4.computer version/video_analysis/get_frame_by_second.py" beforeDir="false" afterPath="$PROJECT_DIR$/4.computer version/video_analysis/get_frame_by_second.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0.2.paper_to_implementation/cpm_basic/example.py" beforeDir="false" afterPath="$PROJECT_DIR$/0.2.paper_to_implementation/cpm_basic/example.py" afterDir="false" />
     </list>
     <list id="2474c04d-8c07-4c0b-841a-b13a8e60b236" name="1" comment="" />
     <list id="3c7546a6-2fe2-4f68-9201-2ed102ff0052" name="Revert &quot;1&quot;" comment="Revert &quot;1&quot;&#10;&#10;This reverts commit 139f8cc" />
@@ -45,7 +19,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$tensorflow_test.coverage" NAME="tensorflow_test Coverage Results" MODIFIED="1533472701169" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.tensorflow" />
+    <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$tensorflow_test.coverage" NAME="tensorflow_test Coverage Results" MODIFIED="1535199601887" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.tensorflow" />
     <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$5_3__1_.coverage" NAME="5.3 (1) Coverage Results" MODIFIED="1531932769269" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.tensorflow/TensorFlow实战/unit5" />
     <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$softmax.coverage" NAME="softmax Coverage Results" MODIFIED="1534121463330" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/0.1.math" />
     <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$mnist_train.coverage" NAME="mnist_train Coverage Results" MODIFIED="1531727556597" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/LeNet-5" />
@@ -96,7 +70,7 @@
     <SUITE FILE_PATH="coverage/tensorflow_from_google_mac$alexnet.coverage" NAME="alexnet Coverage Results" MODIFIED="1530598449743" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2.keras/network" />
     <SUITE FILE_PATH="coverage/tensorflow_from_google_mac$tensorflow_test.coverage" NAME="tensorflow_test Coverage Results" MODIFIED="1531118166656" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.tensorflow" />
     <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$resnet.coverage" NAME="resnet Coverage Results" MODIFIED="1532418742032" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2.keras/cifar10" />
-    <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$example__1_.coverage" NAME="example (1) Coverage Results" MODIFIED="1534829146100" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/0.2.paper_to_implementation/cpm_basic" />
+    <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$example__1_.coverage" NAME="example (1) Coverage Results" MODIFIED="1535098510357" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/0.2.paper_to_implementation/cpm_basic" />
     <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$VGGNet.coverage" NAME="VGGNet Coverage Results" MODIFIED="1532336247842" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.tensorflow/TensorFlow实战" />
     <SUITE FILE_PATH="coverage/tensorflow_from_google_mac$7_3_1Queue_Multi_thread.coverage" NAME="7.3.1Queue-Multi_thread Coverage Results" MODIFIED="1531716621409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/Queue-operations" />
     <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$ICCV2017.coverage" NAME="ICCV2017 Coverage Results" MODIFIED="1533025547796" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/0.0.cvpr" />
@@ -111,6 +85,7 @@
     <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$test.coverage" NAME="test Coverage Results" MODIFIED="1534729365811" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3.pytorch/1" />
     <SUITE FILE_PATH="coverage/tensorflow_from_google_mac$Read_TFRecord_Example.coverage" NAME="Read-TFRecord-Example Coverage Results" MODIFIED="1531700837384" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/TFRecord" />
     <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$201836201004.coverage" NAME="2018年3月6日201004 Coverage Results" MODIFIED="1532600845268" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2.keras" />
+    <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$gun.coverage" NAME="gun Coverage Results" MODIFIED="1535011813437" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$new_class_saver_test.coverage" NAME="new-class-saver-test Coverage Results" MODIFIED="1534750305348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.tensorflow/CNN" />
     <SUITE FILE_PATH="coverage/tensorflow_from_google_mac$1__2_.coverage" NAME="1 (2) Coverage Results" MODIFIED="1530808876015" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/9.opencv/opencv算法精解" />
     <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$5_3.coverage" NAME="5.3 Coverage Results" MODIFIED="1531931587542" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.tensorflow/TensorFlow实战/unit5/cifar10" />
@@ -182,40 +157,40 @@
     <session id="-1769676544">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="23" />
-          <entry key="project.open.time.0" value="3" />
+          <entry key="project.closed" value="28" />
+          <entry key="project.open.time.0" value="5" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="4" />
-          <entry key="project.open.time.7" value="9" />
+          <entry key="project.open.time.7" value="11" />
           <entry key="project.open.time.8" value="5" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="26" />
+          <entry key="project.opened" value="30" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="jpg" value="5" />
-          <entry key="png" value="1" />
-          <entry key="py" value="38" />
+          <entry key="jpg" value="11" />
+          <entry key="png" value="11" />
+          <entry key="py" value="43" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Image" value="6" />
-          <entry key="Python" value="38" />
+          <entry key="Image" value="22" />
+          <entry key="Python" value="43" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="1243" />
+          <entry key="py" value="1252" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="1243" />
+          <entry key="Python" value="1252" />
         </counts>
       </usages-collector>
     </session>
@@ -224,7 +199,65 @@
     <favorites_list name="tensorflow_from_my_notebook" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/0.2.paper_to_implementation/cpm_basic/example.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="268">
+              <caret line="128" lean-forward="true" selection-start-line="128" selection-end-line="128" />
+              <folding>
+                <element signature="e#134#171#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/0.2.paper_to_implementation/cpm/sample_image/FLIC_test/princess-diaries-2-00152201.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/0.2.paper_to_implementation/cpm/sample_image/FLIC_test/12-oclock-high-special-edition-00006381.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/0.2.paper_to_implementation/cpm/sample_image/CMU_panoptic/00000998_05_01.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/0.2.paper_to_implementation/cpm/sample_image/CMU_panoptic/00000998_06_01.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/0.2.paper_to_implementation/cpm/sample_image/CMU_panoptic/00000998_14_01.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/0.2.paper_to_implementation/cpm/sample_image/CMU_panoptic/00004780_01_01.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/0.2.paper_to_implementation/cpm_basic/00007508_01_23.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/0.2.paper_to_implementation/cpm/sample_image/CMU_panoptic/00007508_02_06.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/0.2.paper_to_implementation/cpm/sample_image/CMU_panoptic/00007508_08_06.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -235,7 +268,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>print</find>
       <find>zeros_initializer</find>
       <find>initialize_all_variables</find>
       <find>x</find>
@@ -261,10 +293,11 @@
       <find>real_img</find>
       <find>get_inputs</find>
       <find>2048</find>
-      <find>\</find>
       <find>E:/data/datasets/flower_photos/</find>
       <find>/</find>
       <find>StringIO</find>
+      <find>D:/python_model/cpm</find>
+      <find>\</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -280,9 +313,12 @@
       <replace>ICCV</replace>
       <replace>960</replace>
       <replace>D:/Study/data/flower_photos/</replace>
-      <replace>/</replace>
       <replace>\\</replace>
+      <replace>/</replace>
     </replaceStrings>
+    <dirStrings>
+      <dir>D:\GitHub\tensorflow_from_my_notebook\0.2.paper_to_implementation\cpm_basic</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -338,9 +374,9 @@
         <option value="$PROJECT_DIR$/0.2.paper_to_implementation/cpm/cpm.py" />
         <option value="$PROJECT_DIR$/0.2.paper_to_implementation/cpm/example.py" />
         <option value="$PROJECT_DIR$/0.2.paper_to_implementation/cpm/config_reader.py" />
-        <option value="$PROJECT_DIR$/0.2.paper_to_implementation/cpm_basic/example.py" />
         <option value="$PROJECT_DIR$/0.2.paper_to_implementation/cpm/PersonDetection.py" />
         <option value="$PROJECT_DIR$/0.2.paper_to_implementation/cpm/util.py" />
+        <option value="$PROJECT_DIR$/0.2.paper_to_implementation/cpm_basic/example.py" />
       </list>
     </option>
   </component>
@@ -388,7 +424,51 @@
               <item name="tensorflow_from_my_notebook" type="b2602c69:ProjectViewProjectNode" />
               <item name="tensorflow_from_my_notebook" type="462c0819:PsiDirectoryNode" />
               <item name="0.2.paper_to_implementation" type="462c0819:PsiDirectoryNode" />
+              <item name="cpm" type="462c0819:PsiDirectoryNode" />
+              <item name="sample_image" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tensorflow_from_my_notebook" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tensorflow_from_my_notebook" type="462c0819:PsiDirectoryNode" />
+              <item name="0.2.paper_to_implementation" type="462c0819:PsiDirectoryNode" />
+              <item name="cpm" type="462c0819:PsiDirectoryNode" />
+              <item name="sample_image" type="462c0819:PsiDirectoryNode" />
+              <item name="CMU_panoptic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tensorflow_from_my_notebook" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tensorflow_from_my_notebook" type="462c0819:PsiDirectoryNode" />
+              <item name="0.2.paper_to_implementation" type="462c0819:PsiDirectoryNode" />
+              <item name="cpm" type="462c0819:PsiDirectoryNode" />
+              <item name="sample_image" type="462c0819:PsiDirectoryNode" />
+              <item name="FLIC_test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tensorflow_from_my_notebook" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tensorflow_from_my_notebook" type="462c0819:PsiDirectoryNode" />
+              <item name="0.2.paper_to_implementation" type="462c0819:PsiDirectoryNode" />
+              <item name="cpm" type="462c0819:PsiDirectoryNode" />
+              <item name="sample_image" type="462c0819:PsiDirectoryNode" />
+              <item name="LSP_test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tensorflow_from_my_notebook" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tensorflow_from_my_notebook" type="462c0819:PsiDirectoryNode" />
+              <item name="0.2.paper_to_implementation" type="462c0819:PsiDirectoryNode" />
+              <item name="cpm" type="462c0819:PsiDirectoryNode" />
+              <item name="sample_image" type="462c0819:PsiDirectoryNode" />
+              <item name="videos" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tensorflow_from_my_notebook" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tensorflow_from_my_notebook" type="462c0819:PsiDirectoryNode" />
+              <item name="0.2.paper_to_implementation" type="462c0819:PsiDirectoryNode" />
               <item name="cpm_basic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tensorflow_from_my_notebook" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tensorflow_from_my_notebook" type="462c0819:PsiDirectoryNode" />
+              <item name="0.3.week-plan" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -398,23 +478,23 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../convolutional-pose-machines-tensorflow" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../resnet-in-tensorflow" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\GitHub\tensorflow_from_my_notebook\0.2.paper_to_implementation\cpm" />
-      <recent name="D:\GitHub\tensorflow_from_my_notebook\0.2.paper_to_implementation" />
-      <recent name="D:\GitHub\tensorflow_from_my_notebook\1.tensorflow\CNN" />
-      <recent name="D:\GitHub\tensorflow_from_my_notebook\4.computer version\0.0.opencv" />
-      <recent name="D:\GitHub\tensorflow_from_my_notebook\4.computer version\images" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\GitHub\tensorflow_from_my_notebook\0.2.paper_to_implementation\cpm_basic" />
       <recent name="D:\GitHub\tensorflow_from_my_notebook\4.computer version\0.0.opencv" />
       <recent name="D:\GitHub\tensorflow_from_my_notebook\4.computer version" />
       <recent name="D:\GitHub\tensorflow_from_my_notebook\8.GANS\mnist\data" />
       <recent name="C:\Users\yubow\Documents\GitHub\tensorflow_from_my_notebook\1.tensorflow\TensorFlow实战Google深度学习框架\unit5" />
-      <recent name="C:\Users\yubow\Documents\GitHub\tensorflow_from_my_notebook\1.tensorflow\TensorFlow实战\unit5" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\GitHub\tensorflow_from_my_notebook\0.2.paper_to_implementation\cpm\sample_image\CMU_panoptic" />
+      <recent name="D:\GitHub\tensorflow_from_my_notebook\0.2.paper_to_implementation\cpm_basic" />
+      <recent name="D:\GitHub\tensorflow_from_my_notebook\0.2.paper_to_implementation\cpm" />
+      <recent name="D:\GitHub\tensorflow_from_my_notebook\0.2.paper_to_implementation" />
+      <recent name="D:\GitHub\tensorflow_from_my_notebook\1.tensorflow\CNN" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -429,7 +509,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.PersonDetection">
+  <component name="RunManager" selected="Python.tensorflow_test">
     <configuration name="PersonDetection" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="tensorflow_from_google_mac" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -496,7 +576,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="example" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="gun" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="tensorflow_from_google_mac" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -504,12 +584,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/0.2.paper_to_implementation/cpm" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/0.2.paper_to_implementation/cpm/example.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gun.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -518,7 +598,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="get_frame_by_second" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="tensorflow_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="tensorflow_from_google_mac" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -526,12 +606,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/4.computer version/video_analysis" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1.tensorflow" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/4.computer version/video_analysis/get_frame_by_second.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1.tensorflow/tensorflow_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -541,19 +621,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.get_frame_by_second" />
-      <item itemvalue="Python.example" />
       <item itemvalue="Python.config_reader" />
       <item itemvalue="Python.example (1)" />
       <item itemvalue="Python.PersonDetection" />
+      <item itemvalue="Python.gun" />
+      <item itemvalue="Python.tensorflow_test" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.PersonDetection" />
+        <item itemvalue="Python.tensorflow_test" />
         <item itemvalue="Python.example (1)" />
+        <item itemvalue="Python.gun" />
+        <item itemvalue="Python.PersonDetection" />
         <item itemvalue="Python.config_reader" />
-        <item itemvalue="Python.example" />
-        <item itemvalue="Python.get_frame_by_second" />
       </list>
     </recent_temporary>
   </component>
@@ -898,7 +978,14 @@
       <option name="project" value="LOCAL" />
       <updated>1534753454910</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="1">
+      <created>1534832242041</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1534832242041</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TodoView">
@@ -911,28 +998,28 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49838188" visible="true" weight="0.16471216" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49838188" visible="true" weight="0.17110874" />
       <window_info id="Structure" order="1" sideWeight="0.50161815" side_tool="true" weight="0.1444563" />
       <window_info id="Favorites" order="2" sideWeight="0.50161815" side_tool="true" weight="0.1444563" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286334" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3274918" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3264642" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991462" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3286334" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" weight="0.32936078" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3264642" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3264642" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32502708" />
-      <window_info anchor="bottom" id="Version Control" order="11" weight="0.32719395" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.3261105" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" weight="0.329718" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" weight="0.44045368" />
+      <window_info anchor="right" id="SciView" order="3" visible="true" weight="0.4402985" />
       <window_info anchor="right" id="Database" order="4" weight="0.32889125" />
     </layout>
     <layout-to-restore>
@@ -996,96 +1083,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="191" column="48" selection-start-line="191" selection-start-column="47" selection-end-line="191" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1.tensorflow/GAN/GAN_MNIST.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/Tensorflow-Picture/1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="22" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2.keras/2018年3月6日201004.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-81">
-          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/unit3/1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="26" column="27" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/unit4/regularization.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="41" column="10" selection-start-line="41" selection-start-column="10" selection-end-line="41" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/unit5/1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/unit5/5.4TensorFlowModelsPersistence/1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="76" selection-start-line="76" selection-end-line="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/os.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="219" selection-start-line="219" selection-end-line="219" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/0.0.cvpr/cvpr2017.py" />
-    <entry file="file://$PROJECT_DIR$/0.0.cvpr/cvpr17.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="931">
-          <caret line="53" column="19" selection-start-line="50" selection-start-column="3" selection-end-line="53" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/0.0.cvpr/cvpr18.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="33" column="31" selection-end-line="57" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1.tensorflow/tensorflow_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/8.GANS/123.py" />
-    <entry file="file://$PROJECT_DIR$/8.GANS/mnist/vis/sample_0.jpg" />
-    <entry file="file://$PROJECT_DIR$/8.GANS/mnist/vis/sample_3.0.jpg" />
-    <entry file="file://$PROJECT_DIR$/8.GANS/mnist/vis/sample_9.0.jpg" />
-    <entry file="file://$PROJECT_DIR$/8.GANS/mnist/util.py" />
     <entry file="file://$PROJECT_DIR$/8.GANS/mnist/model.py" />
     <entry file="file://$PROJECT_DIR$/8.GANS/mnist/train.py" />
     <entry file="file://$PROJECT_DIR$/8.GANS/mnist/load.py" />
@@ -1231,42 +1228,83 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/0.2.paper_to_implementation/cpm/config_reader.py">
+    <entry file="file://$PROJECT_DIR$/0.2.paper_to_implementation/cpm/config_reader.py" />
+    <entry file="file://$PROJECT_DIR$/0.2.paper_to_implementation/cpm_basic/nadal.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/0.2.paper_to_implementation/cpm/PersonDetection.py" />
+    <entry file="file://$PROJECT_DIR$/0.2.paper_to_implementation/cpm/util.py" />
+    <entry file="file://$PROJECT_DIR$/1.tensorflow/GAN/GAN_MNIST.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+        <state relative-caret-position="275">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gun.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/0.2.paper_to_implementation/cpm_basic/cpm.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/0.2.paper_to_implementation/cpm_basic/nadal.png">
+    <entry file="file://$PROJECT_DIR$/0.2.paper_to_implementation/cpm/sample_image/singer.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/0.2.paper_to_implementation/cpm/sample_image/shihen.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/0.2.paper_to_implementation/cpm/sample_image/nadal.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/0.2.paper_to_implementation/cpm/sample_image/frame0181.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/0.2.paper_to_implementation/cpm/sample_image/7.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/0.2.paper_to_implementation/cpm/sample_image/LSP_test/im1658.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/0.2.paper_to_implementation/cpm/sample_image/LSP_test/im1640.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/0.2.paper_to_implementation/cpm/sample_image/FLIC_test/princess-diaries-2-00152201.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/0.2.paper_to_implementation/cpm/sample_image/FLIC_test/12-oclock-high-special-edition-00006381.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/0.2.paper_to_implementation/cpm/sample_image/CMU_panoptic/00000998_05_01.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/0.2.paper_to_implementation/cpm/sample_image/CMU_panoptic/00000998_06_01.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/0.2.paper_to_implementation/cpm/sample_image/CMU_panoptic/00000998_14_01.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/0.2.paper_to_implementation/cpm/sample_image/CMU_panoptic/00004780_01_01.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/0.2.paper_to_implementation/cpm/sample_image/CMU_panoptic/00007508_08_06.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/0.2.paper_to_implementation/cpm/sample_image/CMU_panoptic/00007508_02_06.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/0.2.paper_to_implementation/cpm_basic/00007508_01_23.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/0.2.paper_to_implementation/cpm_basic/example.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/0.2.paper_to_implementation/cpm/PersonDetection.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+        <state relative-caret-position="268">
+          <caret line="128" lean-forward="true" selection-start-line="128" selection-end-line="128" />
           <folding>
-            <element signature="e#0#16#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/0.2.paper_to_implementation/cpm/util.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="17" selection-end-line="81" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#134#171#0" expanded="true" />
           </folding>
         </state>
       </provider>
