@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a1dc680-8eaf-41d8-9ae3-49bd7e5ccb53" name="Default" comment="1">
-      <change afterPath="$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/unit5/5.1.processing data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/unit5/5.2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/unit3/1.demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/unit3/1.demo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/unit5/5.1.processing data.py" beforeDir="false" afterPath="$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/unit5/5.1.processing data.py" afterDir="false" />
     </list>
     <list id="2474c04d-8c07-4c0b-841a-b13a8e60b236" name="1" comment="" />
     <list id="3c7546a6-2fe2-4f68-9201-2ed102ff0052" name="Revert &quot;1&quot;" comment="Revert &quot;1&quot;&#10;&#10;This reverts commit 139f8cc" />
@@ -23,8 +23,8 @@
     <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$5_3__1_.coverage" NAME="5.3 (1) Coverage Results" MODIFIED="1531932769269" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.tensorflow/TensorFlow实战/unit5" />
     <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$softmax.coverage" NAME="softmax Coverage Results" MODIFIED="1534121463330" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/0.1.math" />
     <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$mnist_train.coverage" NAME="mnist_train Coverage Results" MODIFIED="1531727556597" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/LeNet-5" />
-    <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$5_2.coverage" NAME="5.2 Coverage Results" MODIFIED="1531927647522" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.tensorflow/TensorFlow实战/unit5" />
     <SUITE FILE_PATH="coverage/tensorflow_from_google_mac$GoogleNet.coverage" NAME="GoogleNet Coverage Results" MODIFIED="1530434198766" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.tensorflow/network" />
+    <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$5_2.coverage" NAME="5.2 Coverage Results" MODIFIED="1535447027501" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/unit5" />
     <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$cifar10_train.coverage" NAME="cifar10_train Coverage Results" MODIFIED="1531930322267" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.tensorflow/TensorFlow实战/unit5/cifar10" />
     <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$new_class_saver.coverage" NAME="new-class-saver Coverage Results" MODIFIED="1534749943219" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.tensorflow/CNN" />
     <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$AlexNet.coverage" NAME="AlexNet Coverage Results" MODIFIED="1532070104858" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.tensorflow/TensorFlow实战" />
@@ -40,6 +40,7 @@
     <SUITE FILE_PATH="coverage/tensorflow_from_google_mac$Resnet.coverage" NAME="Resnet Coverage Results" MODIFIED="1530434251176" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.tensorflow/network" />
     <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$train.coverage" NAME="train Coverage Results" MODIFIED="1534205136808" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8.GANS/mnist" />
     <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$1_demo.coverage" NAME="1.demo Coverage Results" MODIFIED="1535434698627" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/unit3" />
+    <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$5_1_processing_data.coverage" NAME="5.1.processing data Coverage Results" MODIFIED="1535442839099" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/unit5" />
     <SUITE FILE_PATH="coverage/tensorflow_from_google_mac$201836203332.coverage" NAME="2018年3月6日203332 Coverage Results" MODIFIED="1531723467639" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.tensorflow/Google快速学习机器学习TensorFlow" />
     <SUITE FILE_PATH="coverage/tensorflow_from_google_mac$numpy.coverage" NAME="numpy Coverage Results" MODIFIED="1530465331951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/6.basic" />
     <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$webcap.coverage" NAME="webcap Coverage Results" MODIFIED="1534722362671" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/4.computer version/0.0.opencv/webcap" />
@@ -175,23 +176,23 @@
         <counts>
           <entry key="jpg" value="11" />
           <entry key="png" value="11" />
-          <entry key="py" value="54" />
+          <entry key="py" value="56" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Image" value="22" />
-          <entry key="Python" value="54" />
+          <entry key="Python" value="56" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="2567" />
+          <entry key="py" value="3862" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="2567" />
+          <entry key="Python" value="3862" />
         </counts>
       </usages-collector>
     </session>
@@ -213,11 +214,34 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/unit5/5.1.processing data.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+            <state>
+              <caret selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/unit5/5.2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-52">
+              <caret line="25" column="54" selection-start-line="25" selection-start-column="54" selection-end-line="25" selection-end-column="54" />
+              <folding>
+                <element signature="e#0#23#0" expanded="true" />
+                <marker date="1535447027429" expanded="true" signature="360:365" ph="..." />
+                <marker date="1535447027429" expanded="true" signature="732:737" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-910">
+              <caret line="182" column="6" selection-start-line="182" selection-start-column="6" selection-end-line="182" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -261,8 +285,8 @@
       <find>/</find>
       <find>StringIO</find>
       <find>D:/python_model/cpm</find>
-      <find>\</find>
       <find>shape</find>
+      <find>\</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -291,7 +315,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/Queue-operations/7.3.2File-Queue.py" />
         <option value="$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/Queue-operations/7.3.3.py" />
         <option value="$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/Queue-operations/7.3.4.py" />
         <option value="$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/9.TensorBoard/1.py" />
@@ -342,6 +365,7 @@
         <option value="$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/unit3/1.py" />
         <option value="$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/unit3/1.demo.py" />
         <option value="$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/unit5/5.1.processing data.py" />
+        <option value="$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/unit5/5.2.py" />
       </list>
     </option>
   </component>
@@ -352,8 +376,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2060" />
-    <option name="y" value="-8" />
+    <option name="x" value="2125" />
+    <option name="y" value="-9" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -428,19 +452,19 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\GitHub\tensorflow_from_my_notebook\1.tensorflow\TensorFlow实战Google深度学习框架\unit5" />
+      <recent name="D:\GitHub\tensorflow_from_my_notebook\0.2.paper_to_implementation\cpm\sample_image\CMU_panoptic" />
+      <recent name="D:\GitHub\tensorflow_from_my_notebook\0.2.paper_to_implementation\cpm_basic" />
+      <recent name="D:\GitHub\tensorflow_from_my_notebook\0.2.paper_to_implementation\cpm" />
+      <recent name="D:\GitHub\tensorflow_from_my_notebook\0.2.paper_to_implementation" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\GitHub\tensorflow_from_my_notebook\0.2.paper_to_implementation\cpm_basic" />
       <recent name="D:\GitHub\tensorflow_from_my_notebook\4.computer version\0.0.opencv" />
       <recent name="D:\GitHub\tensorflow_from_my_notebook\4.computer version" />
       <recent name="D:\GitHub\tensorflow_from_my_notebook\8.GANS\mnist\data" />
       <recent name="C:\Users\yubow\Documents\GitHub\tensorflow_from_my_notebook\1.tensorflow\TensorFlow实战Google深度学习框架\unit5" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\GitHub\tensorflow_from_my_notebook\0.2.paper_to_implementation\cpm\sample_image\CMU_panoptic" />
-      <recent name="D:\GitHub\tensorflow_from_my_notebook\0.2.paper_to_implementation\cpm_basic" />
-      <recent name="D:\GitHub\tensorflow_from_my_notebook\0.2.paper_to_implementation\cpm" />
-      <recent name="D:\GitHub\tensorflow_from_my_notebook\0.2.paper_to_implementation" />
-      <recent name="D:\GitHub\tensorflow_from_my_notebook\1.tensorflow\CNN" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -455,7 +479,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.1.demo">
+  <component name="RunManager" selected="Python.5.2">
     <configuration name="1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="tensorflow_from_google_mac" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -500,7 +524,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="example (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="5.1.processing data" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="tensorflow_from_google_mac" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -508,12 +532,34 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/0.2.paper_to_implementation/cpm_basic" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/unit5" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/0.2.paper_to_implementation/cpm_basic/example.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/unit5/5.1.processing data.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="5.2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="tensorflow_from_google_mac" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/unit5" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/unit5/5.2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -544,42 +590,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="tensorflow_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="tensorflow_from_google_mac" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1.tensorflow" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1.tensorflow/tensorflow_test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Python.example (1)" />
-      <item itemvalue="Python.tensorflow_test" />
       <item itemvalue="Python.mnist" />
       <item itemvalue="Python.1" />
       <item itemvalue="Python.1.demo" />
+      <item itemvalue="Python.5.1.processing data" />
+      <item itemvalue="Python.5.2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.5.2" />
+        <item itemvalue="Python.5.1.processing data" />
         <item itemvalue="Python.1.demo" />
         <item itemvalue="Python.1" />
         <item itemvalue="Python.mnist" />
-        <item itemvalue="Python.tensorflow_test" />
-        <item itemvalue="Python.example (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -594,20 +618,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1528950871317</updated>
-    </task>
-    <task id="LOCAL-00002" summary="1">
-      <created>1530166193551</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1530166193551</updated>
-    </task>
-    <task id="LOCAL-00003" summary="1">
-      <created>1530785407416</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1530785407416</updated>
     </task>
     <task id="LOCAL-00004" summary="1">
       <created>1530809621627</created>
@@ -938,7 +948,21 @@
       <option name="project" value="LOCAL" />
       <updated>1535433689973</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="1">
+      <created>1535442032696</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1535442032696</updated>
+    </task>
+    <task id="LOCAL-00052" summary="1">
+      <created>1535442066046</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1535442066046</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TodoView">
@@ -954,12 +978,12 @@
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49838188" visible="true" weight="0.17590618" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49838188" visible="true" weight="0.17590618" />
       <window_info id="Structure" order="1" sideWeight="0.50161815" side_tool="true" weight="0.1444563" />
       <window_info id="Favorites" order="2" sideWeight="0.50161815" side_tool="true" weight="0.1444563" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286334" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.324295" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.51084596" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991462" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -973,7 +997,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" weight="0.26332623" />
+      <window_info anchor="right" id="SciView" order="3" visible="true" weight="0.26332623" />
       <window_info anchor="right" id="Database" order="4" weight="0.32889125" />
     </layout>
     <layout-to-restore>
@@ -1037,16 +1061,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/4.computer version/图像插值/双三次.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/4.computer version/images/yubowen.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/4.computer version/0.0.opencv/webcap/webcap.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
@@ -1270,10 +1284,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-910">
+          <caret line="182" column="6" selection-start-line="182" selection-start-column="6" selection-end-line="182" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/unit5/5.1.processing data.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        <state>
+          <caret selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/unit5/5.2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-52">
+          <caret line="25" column="54" selection-start-line="25" selection-start-column="54" selection-end-line="25" selection-end-column="54" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+            <marker date="1535447027429" expanded="true" signature="360:365" ph="..." />
+            <marker date="1535447027429" expanded="true" signature="732:737" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
