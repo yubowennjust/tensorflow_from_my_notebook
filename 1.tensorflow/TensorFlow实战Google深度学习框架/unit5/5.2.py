@@ -1,6 +1,6 @@
 import tensorflow as tf
 from tensorflow.examples.tutorials.mnist import input_data
-
+mnist = input_data.read_data_sets("../unit5/MNIST_data",one_hot=True)
 INPUT_NODE = 784
 OUTPUT_NODE = 10
 
@@ -42,7 +42,7 @@ def train(mnist):
 
     average_y = inference(x,variable_averages,weights1,biases1,weights2,biases2)
 
-    cross_entropy = tf.nn.sparse_softmax_cross_entropy_with_logits(y,tf.argmax(y_,1))
+    cross_entropy = tf.nn.sparse_softmax_cross_entropy_with_logits(logits=y,labels=tf.argmax(y_,1))
 
     cross_entropy_mean = tf.reduce_mean(cross_entropy)
 
@@ -51,3 +51,30 @@ def train(mnist):
     regularaztion = regularizer(weights1)+regularizer(weights2)
 
     loss = cross_entropy_mean + regularaztion
+
+    learning_rate = tf.train.exponential_decay(LEARNING_RATE_BASE,global_step,mnist.train.num_examples/BATCH_SIZE,LEARNING_RATE_DECAY)
+
+    train_step = tf.train.GradientDescentOptimizer(learning_rate).minimize(loss,global_step=global_step)
+
+    train_op = tf.group(train_step,variable_averages_op)
+
+    correct_prediction = tf.equal(tf.argmax(average_y,1),tf.argmax(y_,1))
+
+    accuracy = tf.reduce_mean(tf.cast(correct_prediction,tf.float32))
+
+    with tf.Session() as sess:
+        tf.initialize_all_variables().run()
+        validate_feed = {x: mnist.validation.images, y_: mnist.validation.labels}
+        test_feed = {x: mnist.test.images, y_: mnist.test.labels}
+
+        for i in range(TRAINING_STEPS):
+            if i%1000==0:
+                validate_acc = sess.run(accuracy,feed_dict=validate_feed)
+                print("after %d traing steps validation accuracy using average model is %g"%(i,validate_acc))
+            xs,ys = mnist.train.next_batch(BATCH_SIZE)
+            sess.run(train_op,feed_dict={x:xs,y_:ys})
+
+        test_acc = sess.run(accuracy,feed_dict=test_feed)
+        print("after %d traing steps test accuracy using average model is %g" % (TRAINING_STEPS, test_acc))
+
+train(mnist)
