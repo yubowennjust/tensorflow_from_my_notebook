@@ -46,6 +46,11 @@ def train(mnist):
     with tf.Session() as sess:
         tf.global_variables_initializer().run()
 
+        ckpt = tf.train.get_checkpoint_state(MODEL_SAVE_PATH)  # 获取checkpoints对象
+        if ckpt and ckpt.model_checkpoint_path:  ##判断ckpt是否为空，若不为空，才进行模型的加载，否则从头开始训练
+            saver.restore(sess, ckpt.model_checkpoint_path)
+
+
         for i in range(TRAINING_STEPS):
             xs, ys = mnist.train.next_batch(BATCH_SIZE)
             _, loss_value, step = sess.run([train_op, loss, global_step], feed_dict={x: xs, y_: ys})

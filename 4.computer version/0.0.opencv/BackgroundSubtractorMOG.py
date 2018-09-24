@@ -1,6 +1,9 @@
 import cv2
 
-capture = cv2.VideoCapture(0)
+url = 'rtsp://admin:njust123@169.254.62.157:554'
+capture = cv2.VideoCapture(url)
+
+# capture = cv2.VideoCapture(0)
 fgbg = cv2.createBackgroundSubtractorMOG2()
 
 while True:
