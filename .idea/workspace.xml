@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a1dc680-8eaf-41d8-9ae3-49bd7e5ccb53" name="Default" comment="1">
-      <change afterPath="$PROJECT_DIR$/4.computer version/rgb与ycbcr互转利用numpy/1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hikvision/basic1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4.computer version/face/face_recognition/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/4.computer version/face/face_recognition/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4.computer version/images/m_1342505545217.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.basic/numpy.py" beforeDir="false" afterPath="$PROJECT_DIR$/6.basic/numpy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hikvision/basic.py" beforeDir="false" afterPath="$PROJECT_DIR$/hikvision/basic.py" afterDir="false" />
     </list>
     <list id="2474c04d-8c07-4c0b-841a-b13a8e60b236" name="1" comment="" />
     <list id="3c7546a6-2fe2-4f68-9201-2ed102ff0052" name="Revert &quot;1&quot;" comment="Revert &quot;1&quot;&#10;&#10;This reverts commit 139f8cc" />
@@ -47,7 +51,7 @@
     <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$mnist_train__1_.coverage" NAME="mnist_train (1) Coverage Results" MODIFIED="1536829337801" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/save_mnist" />
     <SUITE FILE_PATH="coverage/tensorflow_from_google_mac$python_save.coverage" NAME="python_save Coverage Results" MODIFIED="1531315843534" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架" />
     <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$matplotlib.coverage" NAME="matplotlib Coverage Results" MODIFIED="1531901802610" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/6.basic" />
-    <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$basic.coverage" NAME="basic Coverage Results" MODIFIED="1536767614678" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hikvision" />
+    <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$basic.coverage" NAME="basic Coverage Results" MODIFIED="1538381059235" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hikvision" />
     <SUITE FILE_PATH="coverage/tensorflow_from_google_mac$test.coverage" NAME="test Coverage Results" MODIFIED="1531701840333" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/4.computer version/face/face_recognition" />
     <SUITE FILE_PATH="coverage/tensorflow_from_google_mac$7_3_2File_Queue.coverage" NAME="7.3.2File-Queue Coverage Results" MODIFIED="1531717382604" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/Queue-operations" />
     <SUITE FILE_PATH="coverage/tensorflow_from_google_mac$LeNet.coverage" NAME="LeNet Coverage Results" MODIFIED="1530162718710" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/7.CNN" />
@@ -82,8 +86,9 @@
     <SUITE FILE_PATH="coverage/tensorflow_from_google_mac$unit3.coverage" NAME="unit3 Coverage Results" MODIFIED="1531125654278" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架" />
     <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$regularization.coverage" NAME="regularization Coverage Results" MODIFIED="1533003719039" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/unit4" />
     <SUITE FILE_PATH="coverage/tensorflow_from_google_mac$22.coverage" NAME="22 Coverage Results" MODIFIED="1530474088820" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/6.basic" />
+    <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$basic1.coverage" NAME="basic1 Coverage Results" MODIFIED="1538378060090" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hikvision" />
     <SUITE FILE_PATH="coverage/tensorflow_from_google_mac$1_test.coverage" NAME="1.test Coverage Results" MODIFIED="1530608270495" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8.object-detection" />
-    <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$test.coverage" NAME="test Coverage Results" MODIFIED="1536767593961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/4.computer version/face/face_recognition" />
+    <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$test.coverage" NAME="test Coverage Results" MODIFIED="1538380941661" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/4.computer version/face/face_recognition" />
     <SUITE FILE_PATH="coverage/tensorflow_from_google_mac$Read_TFRecord_Example.coverage" NAME="Read-TFRecord-Example Coverage Results" MODIFIED="1531700837384" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/TFRecord" />
     <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$201836201004.coverage" NAME="2018年3月6日201004 Coverage Results" MODIFIED="1532600845268" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2.keras" />
     <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$gun.coverage" NAME="gun Coverage Results" MODIFIED="1535011813437" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -105,7 +110,7 @@
     <SUITE FILE_PATH="coverage/tensorflow_from_google_mac$maximum_likelihood_estimation_MLE.coverage" NAME="maximum-likelihood-estimation-MLE Coverage Results" MODIFIED="1530436354469" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/6.basic" />
     <SUITE FILE_PATH="coverage/tensorflow_from_google_mac$1__1_.coverage" NAME="1 (1) Coverage Results" MODIFIED="1531119110815" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架" />
     <SUITE FILE_PATH="coverage/tensorflow_from_google_mac$grayhist.coverage" NAME="grayhist Coverage Results" MODIFIED="1530809006916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/9.opencv/opencv算法精解" />
-    <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$numpy.coverage" NAME="numpy Coverage Results" MODIFIED="1536043847973" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/6.basic" />
+    <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$numpy.coverage" NAME="numpy Coverage Results" MODIFIED="1538286582152" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/6.basic" />
     <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1537164092067" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3.pytorch/1" />
     <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$unit4.coverage" NAME="unit4 Coverage Results" MODIFIED="1535783209260" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架" />
     <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$qrcode.coverage" NAME="qrcode Coverage Results" MODIFIED="1534232117110" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/qrcode" />
@@ -161,47 +166,47 @@
     <session id="-1769676544">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="65" />
-          <entry key="project.open.time.0" value="16" />
+          <entry key="project.closed" value="71" />
+          <entry key="project.open.time.0" value="19" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.2" value="3" />
           <entry key="project.open.time.3" value="9" />
-          <entry key="project.open.time.4" value="12" />
+          <entry key="project.open.time.4" value="14" />
           <entry key="project.open.time.5" value="6" />
           <entry key="project.open.time.6" value="4" />
           <entry key="project.open.time.7" value="9" />
           <entry key="project.open.time.8" value="5" />
           <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="69" />
+          <entry key="project.opened" value="74" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="iml" value="1" />
-          <entry key="jpg" value="8" />
+          <entry key="jpg" value="10" />
           <entry key="png" value="1" />
-          <entry key="py" value="89" />
+          <entry key="py" value="101" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="Image" value="9" />
-          <entry key="Python" value="89" />
+          <entry key="Image" value="11" />
+          <entry key="Python" value="101" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="1499" />
+          <entry key="py" value="1706" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="1499" />
+          <entry key="Python" value="1706" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -212,95 +217,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/4.computer version/0.0.opencv/opencv算法精解/1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" selection-start-line="13" selection-end-line="14" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/1.tensorflow/tensorflow_test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/3.pytorch/1/test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/4.computer version/skimage/basic.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/4.computer version/filter/gaussian.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/4.computer version/video_analysis/get_frame_by_second.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/4.computer version/rgb与ycbcr互转利用numpy/1.py">
+        <entry file="file://$PROJECT_DIR$/hikvision/basic.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="28" column="22" lean-forward="true" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/1.tensorflow/TensorFlow实战/VGGNet.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="110">
+              <caret line="5" column="10" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="46" />
               <folding>
-                <element signature="e#0#29#0" expanded="true" />
+                <element signature="e#0#10#0" expanded="true" />
               </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/save_mnist/mnist_train.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1083">
-              <caret line="60" column="20" selection-start-line="60" selection-start-column="20" selection-end-line="60" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SRCNN/test.py">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -314,9 +240,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>placeholder</find>
-      <find>MODEL_SAVE_PATH</find>
-      <find>MODEL_NAME</find>
       <find>LeNet5_infernece</find>
       <find>image_batch</find>
       <find>maybe</find>
@@ -344,6 +267,9 @@
       <find>print</find>
       <find>VideoCapture</find>
       <find>TRAINING_STEPS</find>
+      <find>queue_img_put</find>
+      <find>ret</find>
+      <find>frame</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -373,8 +299,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/1.tensorflow/TensorFlow实战/VGGNet.py" />
-        <option value="$PROJECT_DIR$/1.tensorflow/TensorFlow实战/ResNetV2.py" />
         <option value="$PROJECT_DIR$/2.keras/cifar10/resnet.py" />
         <option value="$PROJECT_DIR$/1.tensorflow/GAN/GAN_MNIST.py" />
         <option value="$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/unit3/1.py" />
@@ -414,8 +338,6 @@
         <option value="$PROJECT_DIR$/6.basic/test.py" />
         <option value="$PROJECT_DIR$/4.computer version/0.0.opencv/BackgroundSubtractorMOG.py" />
         <option value="$PROJECT_DIR$/sr/1.py" />
-        <option value="$PROJECT_DIR$/hikvision/basic.py" />
-        <option value="$PROJECT_DIR$/4.computer version/face/face_recognition/test.py" />
         <option value="$PROJECT_DIR$/断点续训/mnist_inference.py" />
         <option value="$PROJECT_DIR$/断点续训/mnist_eval.py" />
         <option value="$PROJECT_DIR$/断点续训/mnist_train.py" />
@@ -424,6 +346,10 @@
         <option value="$PROJECT_DIR$/4.computer version/skimage/basic.py" />
         <option value="$PROJECT_DIR$/4.computer version/filter/gaussian.py" />
         <option value="$PROJECT_DIR$/4.computer version/rgb与ycbcr互转利用numpy/1.py" />
+        <option value="$PROJECT_DIR$/6.basic/numpy.py" />
+        <option value="$PROJECT_DIR$/hikvision/basic1.py" />
+        <option value="$PROJECT_DIR$/hikvision/basic.py" />
+        <option value="$PROJECT_DIR$/4.computer version/face/face_recognition/test.py" />
       </list>
     </option>
   </component>
@@ -433,11 +359,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="425" />
-    <option name="y" value="94" />
-    <option name="width" value="1386" />
-    <option name="height" value="890" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-7" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="false" id="Update" />
@@ -445,9 +370,12 @@
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
+      <showMembers ProjectPane="false" />
+      <autoscrollToSource ProjectPane="false" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -458,18 +386,20 @@
             <path>
               <item name="tensorflow_from_my_notebook" type="b2602c69:ProjectViewProjectNode" />
               <item name="tensorflow_from_my_notebook" type="462c0819:PsiDirectoryNode" />
-              <item name="1.tensorflow" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tensorflow_from_my_notebook" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tensorflow_from_my_notebook" type="462c0819:PsiDirectoryNode" />
               <item name="4.computer version" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="tensorflow_from_my_notebook" type="b2602c69:ProjectViewProjectNode" />
               <item name="tensorflow_from_my_notebook" type="462c0819:PsiDirectoryNode" />
               <item name="4.computer version" type="462c0819:PsiDirectoryNode" />
-              <item name="filter" type="462c0819:PsiDirectoryNode" />
+              <item name="face" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tensorflow_from_my_notebook" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tensorflow_from_my_notebook" type="462c0819:PsiDirectoryNode" />
+              <item name="4.computer version" type="462c0819:PsiDirectoryNode" />
+              <item name="face" type="462c0819:PsiDirectoryNode" />
+              <item name="face_recognition" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="tensorflow_from_my_notebook" type="b2602c69:ProjectViewProjectNode" />
@@ -481,13 +411,23 @@
               <item name="tensorflow_from_my_notebook" type="b2602c69:ProjectViewProjectNode" />
               <item name="tensorflow_from_my_notebook" type="462c0819:PsiDirectoryNode" />
               <item name="4.computer version" type="462c0819:PsiDirectoryNode" />
-              <item name="rgb与ycbcr互转利用numpy" type="462c0819:PsiDirectoryNode" />
+              <item name="video_analysis" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="tensorflow_from_my_notebook" type="b2602c69:ProjectViewProjectNode" />
               <item name="tensorflow_from_my_notebook" type="462c0819:PsiDirectoryNode" />
               <item name="4.computer version" type="462c0819:PsiDirectoryNode" />
-              <item name="skimage" type="462c0819:PsiDirectoryNode" />
+              <item name="图像插值" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tensorflow_from_my_notebook" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tensorflow_from_my_notebook" type="462c0819:PsiDirectoryNode" />
+              <item name="6.basic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tensorflow_from_my_notebook" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tensorflow_from_my_notebook" type="462c0819:PsiDirectoryNode" />
+              <item name="hikvision" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="tensorflow_from_my_notebook" type="b2602c69:ProjectViewProjectNode" />
@@ -498,12 +438,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../convolutional-pose-machines-tensorflow" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
@@ -534,7 +473,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.1">
+  <component name="RunManager" selected="Python.basic">
     <configuration name="1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="tensorflow_from_google_mac" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -557,7 +496,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="basic (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="basic" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="tensorflow_from_google_mac" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -565,12 +504,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/4.computer version/skimage" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/hikvision" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/4.computer version/skimage/basic.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hikvision/basic.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -579,7 +518,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="gaussian" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="basic1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="tensorflow_from_google_mac" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -587,12 +526,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/4.computer version/filter" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/hikvision" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/4.computer version/filter/gaussian.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hikvision/basic1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -601,7 +540,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="tensorflow_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="numpy" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="tensorflow_from_google_mac" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -609,12 +548,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1.tensorflow" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/6.basic" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1.tensorflow/tensorflow_test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/6.basic/numpy.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -623,7 +562,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="tensorflow_from_google_mac" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -631,12 +570,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/3.pytorch/1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/4.computer version/face/face_recognition" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3.pytorch/1/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/4.computer version/face/face_recognition/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -646,19 +585,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.tensorflow_test" />
-      <item itemvalue="Python.test (1)" />
-      <item itemvalue="Python.basic (1)" />
-      <item itemvalue="Python.gaussian" />
       <item itemvalue="Python.1" />
+      <item itemvalue="Python.numpy" />
+      <item itemvalue="Python.basic" />
+      <item itemvalue="Python.basic1" />
+      <item itemvalue="Python.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.basic" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.basic1" />
+        <item itemvalue="Python.numpy" />
         <item itemvalue="Python.1" />
-        <item itemvalue="Python.gaussian" />
-        <item itemvalue="Python.basic (1)" />
-        <item itemvalue="Python.test (1)" />
-        <item itemvalue="Python.tensorflow_test" />
       </list>
     </recent_temporary>
   </component>
@@ -673,13 +612,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1528950871317</updated>
-    </task>
-    <task id="LOCAL-00003" summary="1">
-      <created>1530785407416</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1530785407416</updated>
     </task>
     <task id="LOCAL-00004" summary="1">
       <created>1530809621627</created>
@@ -1017,7 +949,14 @@
       <option name="project" value="LOCAL" />
       <updated>1537796021838</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="1">
+      <created>1537801620066</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1537801620066</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1030,30 +969,29 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49838188" visible="true" weight="0.2249467" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49838188" visible="true" weight="0.29431072" />
       <window_info id="Structure" order="1" sideWeight="0.50161815" side_tool="true" weight="0.1444563" />
       <window_info id="Favorites" order="2" sideWeight="0.50161815" side_tool="true" weight="0.1444563" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286334" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.38069415" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3822563" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991462" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3286334" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" weight="0.32936078" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3257329" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3267974" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32464713" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.3261105" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" weight="0.329718" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info active="true" anchor="right" id="SciView" order="3" visible="true" weight="0.4392324" />
-      <window_info anchor="right" id="Database" order="4" weight="0.32889125" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.4392324" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32822758" />
     </layout>
     <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1444563" />
@@ -1116,22 +1054,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/0.2.paper_to_implementation/cpm/example.py" />
-    <entry file="file://$PROJECT_DIR$/0.0.cvpr/ICCV2017.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="38" column="25" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/0.0.cvpr/cvpr.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/0.2.paper_to_implementation/cpm/config_reader.py" />
     <entry file="file://$PROJECT_DIR$/0.2.paper_to_implementation/cpm_basic/cpm.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1232,13 +1154,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/6.basic/numpy.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1805">
-          <caret line="95" column="2" selection-start-line="95" selection-start-column="2" selection-end-line="95" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/6.basic/generator/1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -1267,26 +1182,9 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/sr/1.py" />
-    <entry file="file://$PROJECT_DIR$/4.computer version/face/face_recognition/test-INSERT.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/4.computer version/face/face_recognition/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-127">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/断点续训/mnist_inference.py" />
     <entry file="file://$PROJECT_DIR$/断点续训/mnist_eval.py" />
     <entry file="file://$PROJECT_DIR$/断点续训/mnist_train.py" />
-    <entry file="file://$PROJECT_DIR$/hikvision/basic.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/1.tensorflow/TensorFlow实战/mnist.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1328,20 +1226,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4.computer version/filter/gaussian.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/1.tensorflow/TensorFlow实战/VGGNet.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/save_mnist/mnist_train.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -1353,24 +1249,78 @@
     <entry file="file://$PROJECT_DIR$/SRCNN/test.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/4.computer version/video_analysis/get_frame_by_second.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/4.computer version/filter/gaussian.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/4.computer version/rgb与ycbcr互转利用numpy/1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="28" column="22" lean-forward="true" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
+        <state relative-caret-position="261">
+          <caret line="18" column="39" lean-forward="true" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6.basic/numpy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="676">
+          <caret line="102" column="14" selection-start-line="102" selection-start-column="14" selection-end-line="102" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/multiprocessing/context.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="241" selection-start-line="241" selection-end-line="241" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4.computer version/images/m_1342505545217.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4.computer version/face/face_recognition/test-INSERT.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hikvision/basic1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="26" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+            <marker date="1538376197451" expanded="true" signature="648:1175" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4.computer version/图像插值/双三次.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="75" lean-forward="true" selection-start-line="74" selection-end-line="75" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4.computer version/face/face_recognition/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="49" lean-forward="true" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
+          <folding>
+            <element signature="e#24#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4.computer version/video_analysis/get_frame_by_second.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hikvision/basic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="10" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

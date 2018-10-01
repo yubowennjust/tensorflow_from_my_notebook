@@ -7,8 +7,8 @@ import os
 # 请注意：这个例子需要安装OpenCV
 # 具体的演示。如果你安装它有困难，试试其他不需要它的演示。
 # 得到一个参考的摄像头# 0（默认）
-url = 'rtsp://admin:njust123@169.254.102.131:554'
-video_capture = cv2.VideoCapture(url)
+# url = 'rtsp://admin:njust123@192.168.2.118:554'
+# video_capture = cv2.VideoCapture(url)
 # video_capture = cv2.VideoCapture(0)
 # 加载示例图片并学习如何识别它。
 path ="D:\\GitHub\\tensorflow_from_my_notebook\\4.computer version\\images"#在同级目录下的images文件中放需要被识别出的人物图
@@ -21,7 +21,8 @@ for fn in os.listdir(path): #fn 表示的是文件名
   total_image_name.append(fn)#图片名字列表
 while True:
   # 抓取一帧视频
-  ret, frame = video_capture.read()
+  frame = img = cv2.imread("D:\\GitHub\\tensorflow_from_my_notebook\\4.computer version\\images\\yubowen.jpg")
+
   # 发现在视频帧所有的脸和face_enqcodings
   face_locations = face_recognition.face_locations(frame)
   face_encodings = face_recognition.face_encodings(frame, face_locations)
