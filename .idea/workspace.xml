@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a1dc680-8eaf-41d8-9ae3-49bd7e5ccb53" name="Default" comment="1">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3.pytorch/1.tensor_tutorial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3.pytorch/2.autograd_tutorial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3.pytorch/3.neural_networks_tutorial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3.pytorch/5.data_parallel_tutorial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3.pytorch/6.data_loading_tutorial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3.pytorch/7.Learning PyTorch with Examples.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3.pytorch/8.TRANSFER LEARNING TUTORIAL.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3.pytorch/transfer_learning_tutorial.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.pytorch/1/test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/7.CNN/ResNet/1.py" beforeDir="false" afterPath="$PROJECT_DIR$/4.computer version/face/face_recognition/test.py" afterDir="false" />
     </list>
     <list id="2474c04d-8c07-4c0b-841a-b13a8e60b236" name="1" comment="" />
     <list id="3c7546a6-2fe2-4f68-9201-2ed102ff0052" name="Revert &quot;1&quot;" comment="Revert &quot;1&quot;&#10;&#10;This reverts commit 139f8cc" />
@@ -22,10 +20,11 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$tensorflow_test.coverage" NAME="tensorflow_test Coverage Results" MODIFIED="1536903633258" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.tensorflow" />
-    <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$3_neural_networks_tutorial.coverage" NAME="3.neural_networks_tutorial Coverage Results" MODIFIED="1538969253207" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3.pytorch" />
+    <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$3_neural_networks_tutorial.coverage" NAME="3.neural_networks_tutorial Coverage Results" MODIFIED="1538973702572" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3.pytorch" />
     <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$5_2.coverage" NAME="5.2 Coverage Results" MODIFIED="1531927647522" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.tensorflow/TensorFlow实战/unit5" />
     <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$cifar10_train.coverage" NAME="cifar10_train Coverage Results" MODIFIED="1531930322267" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.tensorflow/TensorFlow实战/unit5/cifar10" />
     <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$gaussian.coverage" NAME="gaussian Coverage Results" MODIFIED="1537795992134" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/4.computer version/filter" />
+    <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$5_data_parallel_tutorial.coverage" NAME="5.data_parallel_tutorial Coverage Results" MODIFIED="1538975030717" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3.pytorch" />
     <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$validate_alexnet_on_imagenet_checkpoint.coverage" NAME="validate_alexnet_on_imagenet-checkpoint Coverage Results" MODIFIED="1531879288428" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10.network/2.AlexNET" />
     <SUITE FILE_PATH="coverage/tensorflow_from_google_mac$mnist.coverage" NAME="mnist Coverage Results" MODIFIED="1531312083216" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架" />
     <SUITE FILE_PATH="coverage/tensorflow_from_google_mac$Resnet.coverage" NAME="Resnet Coverage Results" MODIFIED="1530434251176" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.tensorflow/network" />
@@ -43,6 +42,7 @@
     <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$basic__1_.coverage" NAME="basic (1) Coverage Results" MODIFIED="1537792727156" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/4.computer version/skimage" />
     <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$BackgroundSubtractorMOG.coverage" NAME="BackgroundSubtractorMOG Coverage Results" MODIFIED="1536310808115" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/4.computer version/0.0.opencv" />
     <SUITE FILE_PATH="coverage/tensorflow_from_google_mac$vgg.coverage" NAME="vgg Coverage Results" MODIFIED="1530434153999" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.tensorflow/network" />
+    <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$4_cifar10_tutorial.coverage" NAME="4.cifar10_tutorial Coverage Results" MODIFIED="1538974830047" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3.pytorch" />
     <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$cvpr2017.coverage" NAME="cvpr2017 Coverage Results" MODIFIED="1533024368654" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/0.0.cvpr" />
     <SUITE FILE_PATH="coverage/tensorflow_from_google_mac$matplotlib.coverage" NAME="matplotlib Coverage Results" MODIFIED="1530437995476" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/6.basic" />
     <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$OpenCVPIL_Image.coverage" NAME="OpenCV转换成PIL.Image格式 Coverage Results" MODIFIED="1531879109239" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/9.opencv/Python OpenCV格式和PIL.Image格式 互转" />
@@ -56,6 +56,7 @@
     <SUITE FILE_PATH="coverage/tensorflow_from_google_mac$unit3.coverage" NAME="unit3 Coverage Results" MODIFIED="1531125654278" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架" />
     <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$regularization.coverage" NAME="regularization Coverage Results" MODIFIED="1533003719039" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/unit4" />
     <SUITE FILE_PATH="coverage/tensorflow_from_google_mac$1_test.coverage" NAME="1.test Coverage Results" MODIFIED="1530608270495" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8.object-detection" />
+    <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$6_data_loading_tutorial.coverage" NAME="6.data_loading_tutorial Coverage Results" MODIFIED="1538976773099" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3.pytorch" />
     <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$gun.coverage" NAME="gun Coverage Results" MODIFIED="1535011813437" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$new_class_saver_test.coverage" NAME="new-class-saver-test Coverage Results" MODIFIED="1534750305348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.tensorflow/CNN" />
     <SUITE FILE_PATH="coverage/tensorflow_from_google_mac$1__2_.coverage" NAME="1 (2) Coverage Results" MODIFIED="1530808876015" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/9.opencv/opencv算法精解" />
@@ -87,6 +88,7 @@
     <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$train.coverage" NAME="train Coverage Results" MODIFIED="1534205136808" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8.GANS/mnist" />
     <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$webcap.coverage" NAME="webcap Coverage Results" MODIFIED="1534722362671" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/4.computer version/0.0.opencv/webcap" />
     <SUITE FILE_PATH="coverage/tensorflow_from_google_mac$201836203332.coverage" NAME="2018年3月6日203332 Coverage Results" MODIFIED="1531723467639" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.tensorflow/Google快速学习机器学习TensorFlow" />
+    <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$7_Learning_PyTorch_with_Examples.coverage" NAME="7.Learning PyTorch with Examples Coverage Results" MODIFIED="1538977949761" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3.pytorch" />
     <SUITE FILE_PATH="coverage/tensorflow_from_google_mac$mnist_eval.coverage" NAME="mnist_eval Coverage Results" MODIFIED="1531322098195" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/save_mnist" />
     <SUITE FILE_PATH="coverage/tensorflow_from_google_mac$7_3_2File_Queue.coverage" NAME="7.3.2File-Queue Coverage Results" MODIFIED="1531717382604" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/Queue-operations" />
     <SUITE FILE_PATH="coverage/tensorflow_from_google_mac$Resnet__1_.coverage" NAME="Resnet (1) Coverage Results" MODIFIED="1530449824729" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2.keras/network" />
@@ -109,6 +111,7 @@
     <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$test.coverage" NAME="test Coverage Results" MODIFIED="1538964291581" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/4.computer version/face/face_recognition" />
     <SUITE FILE_PATH="coverage/tensorflow_from_google_mac$Read_TFRecord_Example.coverage" NAME="Read-TFRecord-Example Coverage Results" MODIFIED="1531700837384" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/TFRecord" />
     <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$201836201004.coverage" NAME="2018年3月6日201004 Coverage Results" MODIFIED="1532600845268" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2.keras" />
+    <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$8_TRANSFER_LEARNING_TUTORIAL.coverage" NAME="8.TRANSFER LEARNING TUTORIAL Coverage Results" MODIFIED="1538987269632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3.pytorch" />
     <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$5_3.coverage" NAME="5.3 Coverage Results" MODIFIED="1531931587542" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.tensorflow/TensorFlow实战/unit5/cifar10" />
     <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$alexnet.coverage" NAME="alexnet Coverage Results" MODIFIED="1531877294107" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2.keras/network" />
     <SUITE FILE_PATH="coverage/tensorflow_from_google_mac$transfer_learning.coverage" NAME="transfer_learning Coverage Results" MODIFIED="1531387528617" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/transfer-learning" />
@@ -191,7 +194,7 @@
           <entry key="iml" value="1" />
           <entry key="jpg" value="10" />
           <entry key="png" value="1" />
-          <entry key="py" value="111" />
+          <entry key="py" value="120" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
@@ -199,20 +202,20 @@
         <counts>
           <entry key="IDEA_MODULE" value="1" />
           <entry key="Image" value="11" />
-          <entry key="Python" value="111" />
+          <entry key="Python" value="120" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="6" />
-          <entry key="py" value="1994" />
+          <entry key="dummy" value="12" />
+          <entry key="py" value="2192" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="6" />
-          <entry key="Python" value="1994" />
+          <entry key="PLAIN_TEXT" value="12" />
+          <entry key="Python" value="2192" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -223,27 +226,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/3.pytorch/2.autograd_tutorial.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="160" column="13" lean-forward="true" selection-start-line="160" selection-start-column="13" selection-end-line="160" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/3.pytorch/3.neural_networks_tutorial.py">
+        <entry file="file://$PROJECT_DIR$/3.pytorch/8.TRANSFER LEARNING TUTORIAL.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="73" column="27" lean-forward="true" selection-start-line="71" selection-start-column="7" selection-end-line="73" selection-end-column="27" />
+            <state relative-caret-position="378">
+              <caret line="185" column="29" lean-forward="true" selection-start-line="185" selection-start-column="29" selection-end-line="185" selection-end-column="29" />
+              <folding>
+                <element signature="e#0#47#0" expanded="true" />
+              </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/3.pytorch/1.tensor_tutorial.py">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -257,7 +249,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>image_batch</find>
       <find>maybe</find>
       <find>maybe_download_and_extract</find>
       <find>distor</find>
@@ -287,6 +278,7 @@
       <find>ret</find>
       <find>frame</find>
       <find>video_capture</find>
+      <find>11</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -304,6 +296,7 @@
       <replace>D:/Study/data/flower_photos/</replace>
       <replace>\\</replace>
       <replace>/</replace>
+      <replace>22</replace>
     </replaceStrings>
     <dirStrings>
       <dir>D:\GitHub\tensorflow_from_my_notebook</dir>
@@ -316,10 +309,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/unit5/1.py" />
-        <option value="$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/unit5/5.4TensorFlowModelsPersistence/1.py" />
-        <option value="$PROJECT_DIR$/0.0.cvpr/cvpr2017.py" />
-        <option value="$PROJECT_DIR$/0.0.cvpr/cvpr17.py" />
         <option value="$PROJECT_DIR$/0.0.cvpr/cvpr18.py" />
         <option value="$PROJECT_DIR$/0.0.cvpr/ICCV2017.py" />
         <option value="$PROJECT_DIR$/8.GANS/123.py" />
@@ -367,6 +356,10 @@
         <option value="$PROJECT_DIR$/4.computer version/face/face_recognition/test.py" />
         <option value="$PROJECT_DIR$/3.pytorch/1/test.py" />
         <option value="$PROJECT_DIR$/3.pytorch/2.autograd_tutorial.py" />
+        <option value="$PROJECT_DIR$/3.pytorch/4.cifar10_tutorial.py" />
+        <option value="$PROJECT_DIR$/3.pytorch/6.data_loading_tutorial.py" />
+        <option value="$PROJECT_DIR$/3.pytorch/7.Learning PyTorch with Examples.py" />
+        <option value="$PROJECT_DIR$/3.pytorch/8.TRANSFER LEARNING TUTORIAL.py" />
       </list>
     </option>
   </component>
@@ -377,9 +370,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
-    <option name="width" value="974" />
-    <option name="height" value="1047" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -421,35 +415,6 @@
               <item name="tensorflow_from_my_notebook" type="462c0819:PsiDirectoryNode" />
               <item name="3.pytorch" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="tensorflow_from_my_notebook" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tensorflow_from_my_notebook" type="462c0819:PsiDirectoryNode" />
-              <item name="4.computer version" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tensorflow_from_my_notebook" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tensorflow_from_my_notebook" type="462c0819:PsiDirectoryNode" />
-              <item name="4.computer version" type="462c0819:PsiDirectoryNode" />
-              <item name="0.0.opencv" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tensorflow_from_my_notebook" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tensorflow_from_my_notebook" type="462c0819:PsiDirectoryNode" />
-              <item name="4.computer version" type="462c0819:PsiDirectoryNode" />
-              <item name="face" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tensorflow_from_my_notebook" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tensorflow_from_my_notebook" type="462c0819:PsiDirectoryNode" />
-              <item name="4.computer version" type="462c0819:PsiDirectoryNode" />
-              <item name="face" type="462c0819:PsiDirectoryNode" />
-              <item name="face_recognition" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tensorflow_from_my_notebook" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tensorflow_from_my_notebook" type="462c0819:PsiDirectoryNode" />
-              <item name="7.CNN" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -490,8 +455,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.3.neural_networks_tutorial">
-    <configuration name="2.autograd_tutorial" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.8.TRANSFER LEARNING TUTORIAL">
+    <configuration name="4.cifar10_tutorial" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="tensorflow_from_google_mac" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -504,7 +469,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3.pytorch/2.autograd_tutorial.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3.pytorch/4.cifar10_tutorial.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -513,7 +478,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="3.neural_networks_tutorial" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="5.data_parallel_tutorial" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="tensorflow_from_google_mac" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -526,7 +491,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3.pytorch/3.neural_networks_tutorial.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3.pytorch/5.data_parallel_tutorial.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -535,7 +500,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="basic" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="6.data_loading_tutorial" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="tensorflow_from_google_mac" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -543,12 +508,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/hikvision" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/3.pytorch" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hikvision/basic.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3.pytorch/6.data_loading_tutorial.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -557,7 +522,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="7.Learning PyTorch with Examples" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="tensorflow_from_google_mac" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -565,12 +530,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/3.pytorch/1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/3.pytorch" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="D:\GitHub\tensorflow_from_my_notebook\3.pytorch\test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3.pytorch/7.Learning PyTorch with Examples.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -579,7 +544,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="8.TRANSFER LEARNING TUTORIAL" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="tensorflow_from_google_mac" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -587,12 +552,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/4.computer version/face/face_recognition" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/3.pytorch" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/4.computer version/face/face_recognition/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3.pytorch/8.TRANSFER LEARNING TUTORIAL.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -602,19 +567,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.basic" />
-      <item itemvalue="Python.test" />
-      <item itemvalue="Python.test (1)" />
-      <item itemvalue="Python.2.autograd_tutorial" />
-      <item itemvalue="Python.3.neural_networks_tutorial" />
+      <item itemvalue="Python.4.cifar10_tutorial" />
+      <item itemvalue="Python.5.data_parallel_tutorial" />
+      <item itemvalue="Python.6.data_loading_tutorial" />
+      <item itemvalue="Python.7.Learning PyTorch with Examples" />
+      <item itemvalue="Python.8.TRANSFER LEARNING TUTORIAL" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.3.neural_networks_tutorial" />
-        <item itemvalue="Python.2.autograd_tutorial" />
-        <item itemvalue="Python.test (1)" />
-        <item itemvalue="Python.test" />
-        <item itemvalue="Python.basic" />
+        <item itemvalue="Python.8.TRANSFER LEARNING TUTORIAL" />
+        <item itemvalue="Python.7.Learning PyTorch with Examples" />
+        <item itemvalue="Python.6.data_loading_tutorial" />
+        <item itemvalue="Python.5.data_parallel_tutorial" />
+        <item itemvalue="Python.4.cifar10_tutorial" />
       </list>
     </recent_temporary>
   </component>
@@ -629,13 +594,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1528950871317</updated>
-    </task>
-    <task id="LOCAL-00006" summary="1">
-      <created>1530855344137</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1530855344137</updated>
     </task>
     <task id="LOCAL-00007" summary="1">
       <created>1530855445503</created>
@@ -973,7 +931,14 @@
       <option name="project" value="LOCAL" />
       <updated>1538399796344</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="1">
+      <created>1538969451101</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1538969451101</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TodoView">
@@ -989,13 +954,13 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49838188" visible="true" weight="0.15458423" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49838188" visible="true" weight="0.15458423" />
       <window_info id="Structure" order="1" sideWeight="0.50161815" side_tool="true" weight="0.1444563" />
       <window_info id="Favorites" order="2" sideWeight="0.50161815" side_tool="true" weight="0.1444563" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286334" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.4295011" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.34273317" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3286334" />
@@ -1008,7 +973,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" weight="0.4392324" />
+      <window_info anchor="right" id="SciView" order="3" visible="true" weight="0.38646054" />
       <window_info anchor="right" id="Database" order="4" weight="0.32822758" />
     </layout>
     <layout-to-restore>
@@ -1114,50 +1079,40 @@
           <line>92</line>
           <option name="timeStamp" value="15" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/3.pytorch/4.cifar10_tutorial.py</url>
+          <line>85</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/3.pytorch/4.cifar10_tutorial.py</url>
+          <line>76</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/3.pytorch/4.cifar10_tutorial.py</url>
+          <line>74</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/3.pytorch/4.cifar10_tutorial.py</url>
+          <line>79</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/3.pytorch/4.cifar10_tutorial.py</url>
+          <line>98</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/3.pytorch/4.cifar10_tutorial.py</url>
+          <line>102</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/unit4.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/unit5/1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/unit5/5.4TensorFlowModelsPersistence/1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/unit5/5.4TensorFlowModelsPersistence/6.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1.tensorflow/CNN/new-class-saver-test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="703">
-          <caret line="39" column="34" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/unit5/5.4TensorFlowModelsPersistence/5.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/unit5/5.4TensorFlowModelsPersistence/5.4.2.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/unit5/5.4TensorFlowModelsPersistence/4.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/unit5/5.1.processing data.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1379,8 +1334,75 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/3.pytorch/3.neural_networks_tutorial.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="73" column="27" lean-forward="true" selection-start-line="71" selection-start-column="7" selection-end-line="73" selection-end-column="27" />
+        <state relative-caret-position="-3135">
+          <caret line="103" column="15" lean-forward="true" selection-start-line="103" selection-start-column="15" selection-end-line="103" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/multiprocessing/reduction.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/multiprocessing/spawn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="135" selection-start-line="135" selection-end-line="135" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3.pytorch/4.cifar10_tutorial.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="107" column="30" lean-forward="true" selection-start-line="107" selection-start-column="30" selection-end-line="107" selection-end-column="30" />
+          <folding>
+            <element signature="e#1781#1793#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3.pytorch/5.data_parallel_tutorial.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1252">
+          <caret line="153" column="8" lean-forward="true" selection-start-line="153" selection-start-column="8" selection-end-line="153" selection-end-column="8" />
+          <folding>
+            <element signature="e#1257#1269#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3.pytorch/6.data_loading_tutorial.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="207" column="13" lean-forward="true" selection-start-line="207" selection-start-column="13" selection-end-line="207" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3.pytorch/7.Learning PyTorch with Examples.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="144" selection-start-line="145" selection-start-column="53" selection-end-line="145" selection-end-column="60" />
+          <folding>
+            <element signature="e#24#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3.pytorch/transfer_learning_tutorial.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3.pytorch/8.TRANSFER LEARNING TUTORIAL.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="185" column="29" lean-forward="true" selection-start-line="185" selection-start-column="29" selection-end-line="185" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#47#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
