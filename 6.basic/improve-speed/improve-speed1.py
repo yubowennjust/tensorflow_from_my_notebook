@@ -18,10 +18,8 @@ import datetime
 # print(duration)
 
 def load_and_resize(image_filename):
-    ### Read in the image data
     img = cv2.imread(image_filename)
 
-    ### Resize the image
     img = cv2.resize(img, (600, 600))
 
 
