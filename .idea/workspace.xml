@@ -2,24 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a1dc680-8eaf-41d8-9ae3-49bd7e5ccb53" name="Default" comment="1">
-      <change afterPath="$PROJECT_DIR$/10.network/DenseNet/keras.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4.computer version/pic/big_beautiful_girl.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4.computer version/pic/im_1.bmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4.computer version/pic/im_10.bmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4.computer version/pic/im_2.bmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4.computer version/pic/im_3.bmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4.computer version/pic/im_4.bmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4.computer version/pic/im_5.bmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4.computer version/pic/im_6.bmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4.computer version/pic/im_7.bmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4.computer version/pic/im_8.bmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4.computer version/pic/im_9.bmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4.computer version/pic/m_1342505545217.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4.computer version/拉普拉斯金字塔/1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8.GANS/Generative Adversarial Networks Tutorial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8.GANS/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6.basic/tqdm/1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cifar10-densenet.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.tensorflow/1.Basic/tf.pad.py" beforeDir="false" afterPath="$PROJECT_DIR$/1.tensorflow/1.Basic/tf.pad.py" afterDir="false" />
     </list>
     <list id="2474c04d-8c07-4c0b-841a-b13a8e60b236" name="1" comment="" />
     <list id="3c7546a6-2fe2-4f68-9201-2ed102ff0052" name="Revert &quot;1&quot;" comment="Revert &quot;1&quot;&#10;&#10;This reverts commit 139f8cc" />
@@ -31,22 +16,23 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$tensorflow_test.coverage" NAME="tensorflow_test Coverage Results" MODIFIED="1540299160631" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.tensorflow" />
+    <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$tensorflow_test.coverage" NAME="tensorflow_test Coverage Results" MODIFIED="1536903633258" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.tensorflow" />
     <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$3_neural_networks_tutorial.coverage" NAME="3.neural_networks_tutorial Coverage Results" MODIFIED="1538973702572" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3.pytorch" />
+    <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$cifar10_densenet.coverage" NAME="cifar10-densenet Coverage Results" MODIFIED="1539792594001" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$5_2.coverage" NAME="5.2 Coverage Results" MODIFIED="1531927647522" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.tensorflow/TensorFlow实战/unit5" />
     <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$cifar10_train.coverage" NAME="cifar10_train Coverage Results" MODIFIED="1531930322267" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.tensorflow/TensorFlow实战/unit5/cifar10" />
     <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$gaussian.coverage" NAME="gaussian Coverage Results" MODIFIED="1537795992134" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/4.computer version/filter" />
     <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$5_data_parallel_tutorial.coverage" NAME="5.data_parallel_tutorial Coverage Results" MODIFIED="1538975030717" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3.pytorch" />
     <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$validate_alexnet_on_imagenet_checkpoint.coverage" NAME="validate_alexnet_on_imagenet-checkpoint Coverage Results" MODIFIED="1531879288428" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10.network/2.AlexNET" />
-    <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$tf_pad.coverage" NAME="tf.pad Coverage Results" MODIFIED="1539139182184" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.tensorflow/1.Basic" />
+    <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$tf_pad.coverage" NAME="tf.pad Coverage Results" MODIFIED="1539137912032" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.tensorflow/1.Basic" />
     <SUITE FILE_PATH="coverage/tensorflow_from_google_mac$mnist.coverage" NAME="mnist Coverage Results" MODIFIED="1531312083216" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架" />
     <SUITE FILE_PATH="coverage/tensorflow_from_google_mac$Resnet.coverage" NAME="Resnet Coverage Results" MODIFIED="1530434251176" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.tensorflow/network" />
     <SUITE FILE_PATH="coverage/tensorflow_from_google_mac$numpy.coverage" NAME="numpy Coverage Results" MODIFIED="1530465331951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/6.basic" />
     <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$get_frame_by_second.coverage" NAME="get_frame_by_second Coverage Results" MODIFIED="1534753386455" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/4.computer version/video_analysis" />
     <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$1__1_.coverage" NAME="1 (1) Coverage Results" MODIFIED="1533004956217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/unit5" />
     <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$placeholder.coverage" NAME="placeholder Coverage Results" MODIFIED="1539137891043" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.tensorflow/1.Basic" />
-    <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$mnist_train__1_.coverage" NAME="mnist_train (1) Coverage Results" MODIFIED="1536829337801" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/save_mnist" />
     <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$2_AutoEncoder.coverage" NAME="2.AutoEncoder Coverage Results" MODIFIED="1531752884907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.tensorflow/TensorFlow实战" />
+    <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$mnist_train__1_.coverage" NAME="mnist_train (1) Coverage Results" MODIFIED="1536829337801" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/save_mnist" />
     <SUITE FILE_PATH="coverage/tensorflow_from_google_mac$python_save.coverage" NAME="python_save Coverage Results" MODIFIED="1531315843534" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架" />
     <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$matplotlib.coverage" NAME="matplotlib Coverage Results" MODIFIED="1531901802610" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/6.basic" />
     <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$basic.coverage" NAME="basic Coverage Results" MODIFIED="1538381059235" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hikvision" />
@@ -66,21 +52,20 @@
     <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$example.coverage" NAME="example Coverage Results" MODIFIED="1534824171464" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/0.2.paper_to_implementation/cpm" />
     <SUITE FILE_PATH="coverage/tensorflow_from_google_mac$7_3_4.coverage" NAME="7.3.4 Coverage Results" MODIFIED="1531719658494" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/Queue-operations" />
     <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$Iterable.coverage" NAME="Iterable Coverage Results" MODIFIED="1536062246962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/6.basic" />
-    <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$regularization.coverage" NAME="regularization Coverage Results" MODIFIED="1533003719039" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/unit4" />
     <SUITE FILE_PATH="coverage/tensorflow_from_google_mac$unit3.coverage" NAME="unit3 Coverage Results" MODIFIED="1531125654278" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架" />
+    <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$regularization.coverage" NAME="regularization Coverage Results" MODIFIED="1533003719039" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/unit4" />
     <SUITE FILE_PATH="coverage/tensorflow_from_google_mac$1_test.coverage" NAME="1.test Coverage Results" MODIFIED="1530608270495" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8.object-detection" />
     <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$6_data_loading_tutorial.coverage" NAME="6.data_loading_tutorial Coverage Results" MODIFIED="1538976773099" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3.pytorch" />
     <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$gun.coverage" NAME="gun Coverage Results" MODIFIED="1535011813437" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$new_class_saver_test.coverage" NAME="new-class-saver-test Coverage Results" MODIFIED="1534750305348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.tensorflow/CNN" />
     <SUITE FILE_PATH="coverage/tensorflow_from_google_mac$1__2_.coverage" NAME="1 (2) Coverage Results" MODIFIED="1530808876015" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/9.opencv/opencv算法精解" />
-    <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$tensorflow_from_google_mac.coverage" NAME="tensorflow_from_google_mac Coverage Results" MODIFIED="1540821299511" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$123.coverage" NAME="123 Coverage Results" MODIFIED="1533539908571" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8.GANS" />
     <SUITE FILE_PATH="coverage/tensorflow_from_google_mac$.coverage" NAME="梯度下降 Coverage Results" MODIFIED="1531725699306" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/5.DeepLearning" />
     <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$mnist__1_.coverage" NAME="mnist (1) Coverage Results" MODIFIED="1531749349629" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架" />
     <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$2_autograd_tutorial.coverage" NAME="2.autograd_tutorial Coverage Results" MODIFIED="1538968328465" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3.pytorch" />
     <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$.coverage" NAME="双三次 Coverage Results" MODIFIED="1534430581837" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/4.computer version/图像插值" />
     <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$demo_GAN.coverage" NAME="demo_GAN Coverage Results" MODIFIED="1531901922772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10.network/6.GAN" />
-    <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$1.coverage" NAME="1 Coverage Results" MODIFIED="1539248611118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/4.computer version/拉普拉斯金字塔" />
+    <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$1.coverage" NAME="1 Coverage Results" MODIFIED="1540999643701" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/6.basic/tqdm" />
     <SUITE FILE_PATH="coverage/tensorflow_from_google_mac$maximum_likelihood_estimation_MLE.coverage" NAME="maximum-likelihood-estimation-MLE Coverage Results" MODIFIED="1530436354469" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/6.basic" />
     <SUITE FILE_PATH="coverage/tensorflow_from_google_mac$grayhist.coverage" NAME="grayhist Coverage Results" MODIFIED="1530809006916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/9.opencv/opencv算法精解" />
     <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1538966442261" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3.pytorch/1" />
@@ -92,30 +77,29 @@
     <SUITE FILE_PATH="coverage/tensorflow_from_google_mac$GoogleNet.coverage" NAME="GoogleNet Coverage Results" MODIFIED="1530434198766" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.tensorflow/network" />
     <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$new_class_saver.coverage" NAME="new-class-saver Coverage Results" MODIFIED="1534749943219" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.tensorflow/CNN" />
     <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$AlexNet.coverage" NAME="AlexNet Coverage Results" MODIFIED="1532070104858" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.tensorflow/TensorFlow实战" />
-    <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$cvpr18.coverage" NAME="cvpr18 Coverage Results" MODIFIED="1533025385786" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/0.0.cvpr" />
     <SUITE FILE_PATH="coverage/tensorflow_from_google_mac$webcap.coverage" NAME="webcap Coverage Results" MODIFIED="1530787684362" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/9.opencv/webcap" />
-    <SUITE FILE_PATH="coverage/tensorflow_from_google_mac$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1530082947607" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3.pytorch/1" />
+    <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$cvpr18.coverage" NAME="cvpr18 Coverage Results" MODIFIED="1533025385786" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/0.0.cvpr" />
     <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$cifar10.coverage" NAME="cifar10 Coverage Results" MODIFIED="1531930212614" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.tensorflow/TensorFlow实战/unit5/cifar10" />
     <SUITE FILE_PATH="coverage/tensorflow_from_google_mac$unit4.coverage" NAME="unit4 Coverage Results" MODIFIED="1531128634265" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架" />
+    <SUITE FILE_PATH="coverage/tensorflow_from_google_mac$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1530082947607" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3.pytorch/1" />
     <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$PersonDetection.coverage" NAME="PersonDetection Coverage Results" MODIFIED="1534831675706" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/0.2.paper_to_implementation/cpm" />
-    <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$train.coverage" NAME="train Coverage Results" MODIFIED="1534205136808" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8.GANS/mnist" />
     <SUITE FILE_PATH="coverage/tensorflow_from_google_mac$7_3_3.coverage" NAME="7.3.3 Coverage Results" MODIFIED="1531718793473" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/Queue-operations" />
-    <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$7_Learning_PyTorch_with_Examples.coverage" NAME="7.Learning PyTorch with Examples Coverage Results" MODIFIED="1538977949761" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3.pytorch" />
+    <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$train.coverage" NAME="train Coverage Results" MODIFIED="1534205136808" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8.GANS/mnist" />
     <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$webcap.coverage" NAME="webcap Coverage Results" MODIFIED="1534722362671" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/4.computer version/0.0.opencv/webcap" />
     <SUITE FILE_PATH="coverage/tensorflow_from_google_mac$201836203332.coverage" NAME="2018年3月6日203332 Coverage Results" MODIFIED="1531723467639" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.tensorflow/Google快速学习机器学习TensorFlow" />
+    <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$7_Learning_PyTorch_with_Examples.coverage" NAME="7.Learning PyTorch with Examples Coverage Results" MODIFIED="1538977949761" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3.pytorch" />
     <SUITE FILE_PATH="coverage/tensorflow_from_google_mac$mnist_eval.coverage" NAME="mnist_eval Coverage Results" MODIFIED="1531322098195" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/save_mnist" />
     <SUITE FILE_PATH="coverage/tensorflow_from_google_mac$7_3_2File_Queue.coverage" NAME="7.3.2File-Queue Coverage Results" MODIFIED="1531717382604" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/Queue-operations" />
     <SUITE FILE_PATH="coverage/tensorflow_from_google_mac$Resnet__1_.coverage" NAME="Resnet (1) Coverage Results" MODIFIED="1530449824729" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2.keras/network" />
     <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$config_reader.coverage" NAME="config_reader Coverage Results" MODIFIED="1534824864441" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/0.2.paper_to_implementation/cpm" />
     <SUITE FILE_PATH="coverage/tensorflow_from_google_mac$gun.coverage" NAME="gun Coverage Results" MODIFIED="1531724784380" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/tensorflow_from_google_mac$mnist__1_.coverage" NAME="mnist (1) Coverage Results" MODIFIED="1531130049451" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2.keras" />
-    <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$Generative_Adversarial_Networks_Tutorial.coverage" NAME="Generative Adversarial Networks Tutorial Coverage Results" MODIFIED="1540825642910" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8.GANS" />
     <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$ResNetV2.coverage" NAME="ResNetV2 Coverage Results" MODIFIED="1532362179346" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.tensorflow/TensorFlow实战" />
     <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$GAN_MNIST.coverage" NAME="GAN_MNIST Coverage Results" MODIFIED="1535819241616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.tensorflow/GAN" />
     <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$cvpr.coverage" NAME="cvpr Coverage Results" MODIFIED="1533023581094" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/0.0.cvpr" />
     <SUITE FILE_PATH="coverage/tensorflow_from_google_mac$1.coverage" NAME="1 Coverage Results" MODIFIED="1531721583029" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/9.TensorBoard" />
-    <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$cifar_input.coverage" NAME="cifar_input Coverage Results" MODIFIED="1539099267591" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10.network/Resnet/cafir" />
     <SUITE FILE_PATH="coverage/tensorflow_from_google_mac$201836201004.coverage" NAME="2018年3月6日201004 Coverage Results" MODIFIED="1529927448847" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2.keras" />
+    <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$cifar_input.coverage" NAME="cifar_input Coverage Results" MODIFIED="1539099267591" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10.network/Resnet/cafir" />
     <SUITE FILE_PATH="coverage/tensorflow_from_google_mac$alexnet.coverage" NAME="alexnet Coverage Results" MODIFIED="1530598449743" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2.keras/network" />
     <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$resnet.coverage" NAME="resnet Coverage Results" MODIFIED="1532418742032" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2.keras/cifar10" />
     <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$VGGNet.coverage" NAME="VGGNet Coverage Results" MODIFIED="1532336247842" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.tensorflow/TensorFlow实战" />
@@ -124,7 +108,7 @@
     <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$resnet_main.coverage" NAME="resnet_main Coverage Results" MODIFIED="1539099251497" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10.network/Resnet/cafir" />
     <SUITE FILE_PATH="coverage/tensorflow_from_google_mac$22.coverage" NAME="22 Coverage Results" MODIFIED="1530474088820" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/6.basic" />
     <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$basic1.coverage" NAME="basic1 Coverage Results" MODIFIED="1538378060090" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hikvision" />
-    <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$test.coverage" NAME="test Coverage Results" MODIFIED="1540826051169" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8.GANS" />
+    <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$test.coverage" NAME="test Coverage Results" MODIFIED="1539099288255" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10.network/Resnet/cafir" />
     <SUITE FILE_PATH="coverage/tensorflow_from_google_mac$Read_TFRecord_Example.coverage" NAME="Read-TFRecord-Example Coverage Results" MODIFIED="1531700837384" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/TFRecord" />
     <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$201836201004.coverage" NAME="2018年3月6日201004 Coverage Results" MODIFIED="1532600845268" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2.keras" />
     <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$8_TRANSFER_LEARNING_TUTORIAL.coverage" NAME="8.TRANSFER LEARNING TUTORIAL Coverage Results" MODIFIED="1538987269632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3.pytorch" />
@@ -133,7 +117,7 @@
     <SUITE FILE_PATH="coverage/tensorflow_from_google_mac$transfer_learning.coverage" NAME="transfer_learning Coverage Results" MODIFIED="1531387528617" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/transfer-learning" />
     <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$cvpr17.coverage" NAME="cvpr17 Coverage Results" MODIFIED="1533024921630" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/0.0.cvpr" />
     <SUITE FILE_PATH="coverage/tensorflow_from_google_mac$TFRecord_Example.coverage" NAME="TFRecord-Example Coverage Results" MODIFIED="1531719058995" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/TFRecord" />
-    <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$mnist.coverage" NAME="mnist Coverage Results" MODIFIED="1540819823155" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8.GANS" />
+    <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$mnist.coverage" NAME="mnist Coverage Results" MODIFIED="1534211242592" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8.GANS" />
     <SUITE FILE_PATH="coverage/tensorflow_from_google_mac$mnist_inference.coverage" NAME="mnist_inference Coverage Results" MODIFIED="1531318762729" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架/save_mnist" />
     <SUITE FILE_PATH="coverage/tensorflow_from_google_mac$1__1_.coverage" NAME="1 (1) Coverage Results" MODIFIED="1531119110815" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.tensorflow/TensorFlow实战Google深度学习框架" />
     <SUITE FILE_PATH="coverage/tensorflow_from_my_notebook$numpy.coverage" NAME="numpy Coverage Results" MODIFIED="1538286582152" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/6.basic" />
@@ -189,63 +173,52 @@
     <session id="-1769676544">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="88" />
+          <entry key="project.closed" value="83" />
           <entry key="project.open.time.0" value="23" />
           <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.2" value="3" />
           <entry key="project.open.time.3" value="9" />
-          <entry key="project.open.time.4" value="21" />
-          <entry key="project.open.time.5" value="10" />
-          <entry key="project.open.time.6" value="4" />
-          <entry key="project.open.time.7" value="9" />
+          <entry key="project.open.time.4" value="17" />
+          <entry key="project.open.time.5" value="8" />
+          <entry key="project.open.time.6" value="5" />
+          <entry key="project.open.time.7" value="10" />
           <entry key="project.open.time.8" value="5" />
           <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="91" />
+          <entry key="project.opened" value="87" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="iml" value="1" />
-          <entry key="ipynb" value="3" />
-          <entry key="jpg" value="11" />
+          <entry key="jpg" value="10" />
           <entry key="png" value="1" />
-          <entry key="py" value="137" />
+          <entry key="py" value="131" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="IPNB" value="3" />
-          <entry key="Image" value="12" />
-          <entry key="Python" value="137" />
+          <entry key="Image" value="11" />
+          <entry key="Python" value="131" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="12" />
-          <entry key="py" value="2393" />
+          <entry key="py" value="2244" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="12" />
-          <entry key="Python" value="2393" />
+          <entry key="Python" value="2244" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
-    </session>
-    <session id="-958419529">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="1" />
-        </counts>
-      </usages-collector>
     </session>
   </component>
   <component name="FavoritesManager">
@@ -254,33 +227,24 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/8.GANS/mnist.py">
+        <entry file="file://$PROJECT_DIR$/cifar10-densenet.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="546">
-              <caret line="234" column="25" selection-start-line="234" selection-start-column="25" selection-end-line="234" selection-end-column="25" />
+            <state relative-caret-position="2850">
+              <caret line="121" column="9" selection-start-line="121" selection-start-column="9" selection-end-line="121" selection-end-column="9" />
               <folding>
-                <element signature="e#0#23#0" expanded="true" />
+                <element signature="e#0#18#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/8.GANS/test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="16" lean-forward="true" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/8.GANS/Generative Adversarial Networks Tutorial.py">
+        <entry file="file://$PROJECT_DIR$/6.basic/tqdm/1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="321" column="74" selection-start-line="321" selection-start-column="67" selection-end-line="321" selection-end-column="74" />
+            <state relative-caret-position="75">
+              <caret line="3" column="15" lean-forward="true" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
               <folding>
-                <element signature="e#3601#3624#0" expanded="true" />
+                <element signature="e#0#21#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -297,6 +261,7 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
+      <find>maybe_download_and_extract</find>
       <find>distor</find>
       <find>pool2</find>
       <find>num_step_burn_in</find>
@@ -310,6 +275,7 @@
       <find>6</find>
       <find>cvpr</find>
       <find>real_img</find>
+      <find>get_inputs</find>
       <find>2048</find>
       <find>\</find>
       <find>E:/data/datasets/flower_photos/</find>
@@ -324,9 +290,7 @@
       <find>frame</find>
       <find>video_capture</find>
       <find>11</find>
-      <find>x_train</find>
-      <find>get_inputs</find>
-      <find>g_loss</find>
+      <find>SaverRestore</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -342,9 +306,9 @@
       <replace>ICCV</replace>
       <replace>960</replace>
       <replace>D:/Study/data/flower_photos/</replace>
+      <replace>\\</replace>
       <replace>/</replace>
       <replace>22</replace>
-      <replace>\\</replace>
     </replaceStrings>
     <dirStrings>
       <dir>D:\GitHub\tensorflow_from_my_notebook</dir>
@@ -357,6 +321,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/8.GANS/mnist/train.py" />
+        <option value="$PROJECT_DIR$/8.GANS/mnist/load.py" />
+        <option value="$PROJECT_DIR$/8.GANS/mnist.py" />
+        <option value="$PROJECT_DIR$/qrcode/qrcode.py" />
         <option value="$PROJECT_DIR$/4.computer version/图像插值/最临近.py" />
         <option value="$PROJECT_DIR$/4.computer version/图像插值/双三次.py" />
         <option value="$PROJECT_DIR$/4.computer version/图像插值/双线性.py" />
@@ -400,14 +368,10 @@
         <option value="$PROJECT_DIR$/3.pytorch/7.Learning PyTorch with Examples.py" />
         <option value="$PROJECT_DIR$/3.pytorch/8.TRANSFER LEARNING TUTORIAL.py" />
         <option value="$PROJECT_DIR$/4.computer version/0.1.image-restoration/BM3D.py" />
-        <option value="$PROJECT_DIR$/1.tensorflow/1.Basic/placeholder.py" />
         <option value="$PROJECT_DIR$/1.tensorflow/1.Basic/tf.pad.py" />
-        <option value="$PROJECT_DIR$/4.computer version/拉普拉斯金字塔/1.py" />
-        <option value="$PROJECT_DIR$/10.network/DenseNet/keras.py" />
-        <option value="$PROJECT_DIR$/8.GANS/mnist.py" />
-        <option value="$USER_HOME$/AppData/Local/Temp/BNZ.5bd7111e2e7a55a/Generative Adversarial Networks Tutorial.ipynb" />
-        <option value="$PROJECT_DIR$/8.GANS/Generative Adversarial Networks Tutorial.py" />
-        <option value="$PROJECT_DIR$/8.GANS/test.py" />
+        <option value="$PROJECT_DIR$/1.tensorflow/1.Basic/placeholder.py" />
+        <option value="$PROJECT_DIR$/特殊天气.py" />
+        <option value="$PROJECT_DIR$/6.basic/tqdm/1.py" />
       </list>
     </option>
   </component>
@@ -418,8 +382,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="480" />
-    <option name="y" value="132" />
+    <option name="x" value="230" />
+    <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -451,6 +415,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -461,60 +426,33 @@
             <path>
               <item name="tensorflow_from_my_notebook" type="b2602c69:ProjectViewProjectNode" />
               <item name="tensorflow_from_my_notebook" type="462c0819:PsiDirectoryNode" />
-              <item name="1.tensorflow" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tensorflow_from_my_notebook" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tensorflow_from_my_notebook" type="462c0819:PsiDirectoryNode" />
-              <item name="8.GANS" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tensorflow_from_my_notebook" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tensorflow_from_my_notebook" type="462c0819:PsiDirectoryNode" />
-              <item name="8.GANS" type="462c0819:PsiDirectoryNode" />
-              <item name="MNIST_data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tensorflow_from_my_notebook" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tensorflow_from_my_notebook" type="462c0819:PsiDirectoryNode" />
-              <item name="9.super_resolution" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tensorflow_from_my_notebook" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tensorflow_from_my_notebook" type="462c0819:PsiDirectoryNode" />
-              <item name="10.network" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tensorflow_from_my_notebook" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tensorflow_from_my_notebook" type="462c0819:PsiDirectoryNode" />
-              <item name="hikvision" type="462c0819:PsiDirectoryNode" />
+              <item name="6.basic" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/EDSR-Tensorflow-master" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\GitHub\tensorflow_from_my_notebook\8.GANS" />
-      <recent name="D:\GitHub\tensorflow_from_my_notebook\4.computer version\pic" />
-      <recent name="D:\GitHub\tensorflow_from_my_notebook\4.computer version" />
       <recent name="D:\GitHub\tensorflow_from_my_notebook\3.pytorch" />
       <recent name="D:\GitHub\tensorflow_from_my_notebook\3.pytorch\1" />
+      <recent name="D:\GitHub\tensorflow_from_my_notebook" />
+      <recent name="D:\GitHub\tensorflow_from_my_notebook\0.2.paper_to_implementation\cpm" />
+      <recent name="D:\GitHub\tensorflow_from_my_notebook\0.2.paper_to_implementation" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\GitHub\tensorflow_from_my_notebook\4.computer version\pic" />
       <recent name="D:\GitHub\tensorflow_from_my_notebook\3.pytorch" />
       <recent name="D:\GitHub\tensorflow_from_my_notebook\7.CNN" />
       <recent name="D:\GitHub\tensorflow_from_my_notebook\4.computer version\images" />
       <recent name="D:\GitHub\tensorflow_from_my_notebook\4.computer version\face\face_recognition" />
+      <recent name="D:\GitHub\tensorflow_from_my_notebook" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -529,25 +467,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test">
-    <configuration name="tensorflow_from_google_mac" type="JupiterNotebook" factoryName="Jupyter Notebook">
-      <module name="tensorflow_from_google_mac" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="additionalOptions" value="" />
-      <option name="ipnbHost" value="127.0.0.1" />
-      <option name="ipnbPort" value="8888" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.1">
     <configuration name="1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="tensorflow_from_google_mac" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -556,12 +476,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/4.computer version/拉普拉斯金字塔" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/6.basic/tqdm" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/4.computer version/拉普拉斯金字塔/1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/6.basic/tqdm/1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -570,7 +490,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Generative Adversarial Networks Tutorial" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="cifar10-densenet" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="tensorflow_from_google_mac" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -578,12 +498,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/8.GANS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/8.GANS/Generative Adversarial Networks Tutorial.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cifar10-densenet.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -592,7 +512,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="mnist" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="placeholder" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="tensorflow_from_google_mac" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -600,34 +520,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/8.GANS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1.tensorflow/1.Basic" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/8.GANS/mnist.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="tensorflow_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="tensorflow_from_google_mac" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1.tensorflow" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1.tensorflow/tensorflow_test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1.tensorflow/1.Basic/placeholder.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -644,12 +542,34 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/8.GANS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/10.network/Resnet/cafir" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/8.GANS/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/10.network/Resnet/cafir/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tf.pad" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="tensorflow_from_google_mac" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1.tensorflow/1.Basic" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1.tensorflow/1.Basic/tf.pad.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -659,20 +579,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Jupyter Notebook.tensorflow_from_google_mac" />
-      <item itemvalue="Python.1" />
-      <item itemvalue="Python.tensorflow_test" />
-      <item itemvalue="Python.mnist" />
-      <item itemvalue="Python.Generative Adversarial Networks Tutorial" />
       <item itemvalue="Python.test" />
+      <item itemvalue="Python.tf.pad" />
+      <item itemvalue="Python.placeholder" />
+      <item itemvalue="Python.cifar10-densenet" />
+      <item itemvalue="Python.1" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.test" />
-        <item itemvalue="Python.Generative Adversarial Networks Tutorial" />
-        <item itemvalue="Python.mnist" />
-        <item itemvalue="Python.tensorflow_test" />
         <item itemvalue="Python.1" />
+        <item itemvalue="Python.cifar10-densenet" />
+        <item itemvalue="Python.tf.pad" />
+        <item itemvalue="Python.placeholder" />
+        <item itemvalue="Python.test" />
       </list>
     </recent_temporary>
   </component>
@@ -687,6 +606,13 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1528950871317</updated>
+    </task>
+    <task id="LOCAL-00008" summary="1">
+      <created>1530855475438</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1530855475438</updated>
     </task>
     <task id="LOCAL-00009" summary="1">
       <created>1530855528495</created>
@@ -1024,14 +950,7 @@
       <option name="project" value="LOCAL" />
       <updated>1538987365988</updated>
     </task>
-    <task id="LOCAL-00057" summary="1">
-      <created>1539138524940</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1539138524941</updated>
-    </task>
-    <option name="localTasksCounter" value="58" />
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1044,14 +963,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-74" y="63" width="1936" height="1056" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49838188" visible="true" weight="0.17537314" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49838188" visible="true" weight="0.16897655" />
       <window_info id="Structure" order="1" sideWeight="0.50161815" side_tool="true" weight="0.1444563" />
       <window_info id="Favorites" order="2" sideWeight="0.50161815" side_tool="true" weight="0.1444563" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286334" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.164859" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5748373" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1065,7 +984,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" weight="0.35287845" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.38646054" />
       <window_info anchor="right" id="Database" order="4" weight="0.32822758" />
     </layout>
     <layout-to-restore>
@@ -1201,15 +1120,23 @@
           <line>102</line>
           <option name="timeStamp" value="21" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/8.GANS/mnist.py</url>
-          <line>186</line>
-          <option name="timeStamp" value="22" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/hikvision/.idea/misc.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hikvision/.idea/hikvision.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sr/1.py" />
+    <entry file="file://$PROJECT_DIR$/断点续训/mnist_inference.py" />
+    <entry file="file://$PROJECT_DIR$/断点续训/mnist_eval.py" />
+    <entry file="file://$PROJECT_DIR$/断点续训/mnist_train.py" />
+    <entry file="file://$PROJECT_DIR$/1.tensorflow/TensorFlow实战/mnist.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/4.computer version/images/yubowen.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -1227,6 +1154,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="13" selection-start-line="13" selection-end-line="14" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1.tensorflow/tensorflow_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
@@ -1276,6 +1210,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/4.computer version/images/m_1342505545217.jpg" />
+    <entry file="file://$PROJECT_DIR$/4.computer version/face/face_recognition/test-INSERT.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/hikvision/basic1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
@@ -1390,10 +1327,24 @@
     <entry file="file://$PROJECT_DIR$/4.computer version/0.1.image-restoration/BM3D.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/10.network/Resnet/cafir/resnet_main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2486">
+          <caret line="120" column="36" selection-start-line="57" selection-start-column="29" selection-end-line="57" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/10.network/Resnet/cafir/cifar_input.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1364">
           <caret line="62" column="60" selection-start-line="46" selection-start-column="8" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10.network/Resnet/cafir/resnet_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
         </state>
       </provider>
     </entry>
@@ -1418,80 +1369,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/4.computer version/face/face_recognition/test-INSERT.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/10.network/Resnet/cafir/resnet_main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2147">
-          <caret line="120" column="36" selection-start-line="57" selection-start-column="29" selection-end-line="57" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/10.network/Resnet/cafir/resnet_model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2147">
-          <caret line="119" column="40" selection-start-line="119" selection-start-column="40" selection-end-line="119" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/4.computer version/拉普拉斯金字塔/1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2033">
-          <caret line="108" column="29" selection-start-line="108" selection-start-column="29" selection-end-line="108" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/10.network/DenseNet/keras.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1.tensorflow/tensorflow_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/1.tensorflow/1.Basic/tf.pad.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
+        <state relative-caret-position="500">
+          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/8.GANS/gan-notebook.ipynb" />
-    <entry file="file://$PROJECT_DIR$/8.GANS/mnist_gan.py" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/BNZ.5bd7111e2e7a55a/Generative Adversarial Networks Tutorial.ipynb" />
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/tensorflow/python/ops/gen_nn_ops.py">
+    <entry file="file://$PROJECT_DIR$/cifar10-densenet.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-186">
-          <caret line="929" column="26" selection-start-line="929" selection-start-column="26" selection-end-line="929" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/8.GANS/mnist.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="234" column="25" selection-start-line="234" selection-start-column="25" selection-end-line="234" selection-end-column="25" />
+        <state relative-caret-position="2850">
+          <caret line="121" column="9" selection-start-line="121" selection-start-column="9" selection-end-line="121" selection-end-column="9" />
           <folding>
-            <element signature="e#0#23#0" expanded="true" />
+            <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/8.GANS/test.py">
+    <entry file="file://$PROJECT_DIR$/6.basic/tqdm/1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="16" lean-forward="true" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/8.GANS/Generative Adversarial Networks Tutorial.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="321" column="74" selection-start-line="321" selection-start-column="67" selection-end-line="321" selection-end-column="74" />
+        <state relative-caret-position="75">
+          <caret line="3" column="15" lean-forward="true" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
           <folding>
-            <element signature="e#3601#3624#0" expanded="true" />
+            <element signature="e#0#21#0" expanded="true" />
           </folding>
         </state>
       </provider>
